@@ -123,8 +123,8 @@
 										</a>
 									</li>
 									<li><!-- FEATURES -->
-										<a href="#soluciones">
-											SOLUCIONES
+										<a href="#servicios">
+											SERVICIOS
 										</a>
 									</li>
 									<li><!-- PRICING -->
@@ -467,53 +467,15 @@
 			</section>
 			<!-- / -->
 
-			<section id="soluciones" class="theme-color" style="height: 200px">
 				<div class="container">
 				
 					<header class="text-center">
-						<h2>Soluciones</h2>
-						<p style="font-size: 20px">Axion - Suite</p>
+						<h2>Soluciones AXIONTI</h2>
+						<h3 style="font-size: 20px">Axion - Suite</h3>
 					</header>
 
 				</div>
-			</section>
 
-			<section>
-				<div class="container">
-					
-					<div class="row">
-					
-						<div class="col-lg-7 col-md-7 col-sm-7">
-							<h2 class="size-25">KASEYA</h2>
-
-							<p style="text-align: justify;font-size: 18px">
-								Somos partner de <strong style="color: black">Kaseya</strong>, un software que integra la automatización en la implementación de sistemas y la administración de procesos mediante la replicación de las mejores prácticas asociadas a la provisión de servicios.
-							<br>
-								Soluciones verificadas especialmente creadas para ofrecer servicios flexibles y adaptados a las necesidades tecnológicas de nuestros clientes.
-							<br>
-								Apoyandonos en las bondades de nuestra plataforma <strong style="color: black">(KASEYA <i class="fa fa-registered" aria-hidden="true"></i>)</strong>, experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confianbilidad y satisfacción.
-
-							</p>
-
-							<!--
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</p>
-								<cite>Albert Einstein</cite>
-							</blockquote>
-							-->
-
-						</div>
-
-						<div class="col-lg-5 col-md-5 col-sm-5">
-
-							<img class="img-responsive wow fadeIn" src="smarty/assets/images/kaseya.png" alt="" data-wow-delay="0.4s">
-
-						</div>						
-
-					</div>
-					
-				</div>
-			</section>
 
 			<!-- 4 Cols -->
 			<section>
@@ -559,7 +521,7 @@
 				</div>
 			</section>
 			<!-- /3 Cols -->
-
+			
 			<!-- -->
 			<section>
 				<div class="container">
@@ -601,6 +563,58 @@
 				</div>
 			</section>
 			<!-- / -->
+
+			<section id="servicios" class="theme-color" style="height: 200px">
+				<div class="container">
+				
+					<header class="text-center">
+						<h2>Servicios</h2>
+						<p style="font-size: 20px">...</p>
+					</header>
+
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					
+					<div class="row">
+					
+						<div class="col-lg-7 col-md-7 col-sm-7">
+							<h2 class="size-25">KASEYA</h2>
+
+							<p style="text-align: justify;font-size: 18px">
+								Somos partner de <strong style="color: black">Kaseya</strong>, un software que integra la automatización en la implementación de sistemas y la administración de procesos mediante la replicación de las mejores prácticas asociadas a la provisión de servicios.
+							<br>
+								Soluciones verificadas especialmente creadas para ofrecer servicios flexibles y adaptados a las necesidades tecnológicas de nuestros clientes.
+							<br>
+								Apoyandonos en las bondades de nuestra plataforma <strong style="color: black">(KASEYA <i class="fa fa-registered" aria-hidden="true"></i>)</strong>, experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confianbilidad y satisfacción.
+
+							</p>
+
+							<!--
+							<blockquote>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</p>
+								<cite>Albert Einstein</cite>
+							</blockquote>
+							-->
+
+						</div>
+
+						<div class="col-lg-5 col-md-5 col-sm-5">
+
+							<img class="img-responsive wow fadeIn" src="smarty/assets/images/kaseya.png" alt="" data-wow-delay="0.4s">
+
+						</div>						
+
+					</div>
+					
+				</div>
+			</section>
+
+
+
+
 
 
 
