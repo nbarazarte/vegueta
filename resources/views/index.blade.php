@@ -123,8 +123,8 @@
 										</a>
 									</li>
 									<li><!-- FEATURES -->
-										<a href="#features">
-											FEATURES
+										<a href="#soluciones">
+											SOLUCIONES
 										</a>
 									</li>
 									<li><!-- PRICING -->
@@ -134,7 +134,7 @@
 									</li>
 									<li><!-- TESTIMONIALS -->
 										<a href="#testimonials">
-											TESTIMONIALS
+											TESTIMONIOS
 										</a>
 									</li>
 									<li><!-- PURCHASE -->
@@ -433,130 +433,178 @@
 			</section>
 			<!-- /HOME -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<!-- FEATURES -->
-			<section id="features">
+			<!-- -->
+			<section>
 				<div class="container">
+					
+					<div class="row">
+					
+						<div class="col-lg-5 col-md-5 col-sm-5">
 
-					<header class="text-center margin-bottom-60">
-						<h2>Our Features</h2>
-						<p class="lead font-lato">Lorem ipsum dolor sit amet adipiscium elit</p>
-						<hr />
+							<img class="img-responsive wow fadeIn" src="smarty/assets/images/top.png" alt="" data-wow-delay="0.4s">
+
+						</div>
+
+						<div class="col-lg-7 col-md-7 col-sm-7">
+							<h2 class="size-25">Grupo AXION</h2>
+
+							<p style="text-align: justify;font-size: 18px">
+								En Axion, contamos con más de 12 años de experiencia en el área de tecnología de la información brindando: soporte, excelencia y soluciones innovadoras que permiten la continuidad operativa y eficiencia de nuestros clientes, es por ello qué, en Venezuela, seguimos conquistando el mercado a través de nuestro talento humano altamente capacitado que contribuirán en ofrecerles el mejor servicio.								
+							</p>
+
+							<!--
+							<blockquote>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</p>
+								<cite>Albert Einstein</cite>
+							</blockquote>
+							-->
+
+						</div>
+
+					</div>
+					
+				</div>
+			</section>
+			<!-- / -->
+
+			<section id="soluciones" class="theme-color" style="height: 200px">
+				<div class="container">
+				
+					<header class="text-center">
+						<h2>Soluciones</h2>
+						<p style="font-size: 20px">Axion - Suite</p>
 					</header>
-
-					<!-- FEATURED BOXES 3 -->
-					<div class="row">
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-circle-compass"></i>
-								<h4>Pixel Perfect</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-piechart"></i>
-								<h4>Graphs</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-strategy"></i>
-								<h4>Startegy</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-streetsign"></i>
-								<h4>SEO Optimized</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus. </p>
-							</div>
-						</div>
-					</div>
-					<!-- /FEATURED BOXES 3 -->
-
-					<!-- FEATURED BOXES 3 -->
-					<div class="row">
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-trophy"></i>
-								<h4>Winners</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-gears"></i>
-								<h4>Responsive</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-tools"></i>
-								<h4>Costomizable</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-layers"></i>
-								<h4>Easy to Modify</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus. </p>
-							</div>
-						</div>
-					</div>
-					<!-- /FEATURED BOXES 3 -->
 
 				</div>
 			</section>
-			<!-- /FEATURES -->
+
+			<section>
+				<div class="container">
+					
+					<div class="row">
+					
+						<div class="col-lg-7 col-md-7 col-sm-7">
+							<h2 class="size-25">KASEYA</h2>
+
+							<p style="text-align: justify;font-size: 18px">
+								Somos partner de <strong style="color: black">Kaseya</strong>, un software que integra la automatización en la implementación de sistemas y la administración de procesos mediante la replicación de las mejores prácticas asociadas a la provisión de servicios.
+							<br>
+								Soluciones verificadas especialmente creadas para ofrecer servicios flexibles y adaptados a las necesidades tecnológicas de nuestros clientes.
+							<br>
+								Apoyandonos en las bondades de nuestra plataforma <strong style="color: black">(KASEYA <i class="fa fa-registered" aria-hidden="true"></i>)</strong>, experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confianbilidad y satisfacción.
+
+							</p>
+
+							<!--
+							<blockquote>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</p>
+								<cite>Albert Einstein</cite>
+							</blockquote>
+							-->
+
+						</div>
+
+						<div class="col-lg-5 col-md-5 col-sm-5">
+
+							<img class="img-responsive wow fadeIn" src="smarty/assets/images/kaseya.png" alt="" data-wow-delay="0.4s">
+
+						</div>						
+
+					</div>
+					
+				</div>
+			</section>
+
+			<!-- 4 Cols -->
+			<section>
+				<div class="container">
+					<div class="row">
+					
+						<div class="col-md-3">
+							
+							<div class="heading-title heading-border-bottom heading-color">
+								<h3> <i class="fa fa-desktop" aria-hidden="true"></i> Axion Desk</h3>
+							</div>
+							
+							<p style="font-size: 18px">Atencion preventiva y correctiva de incidentes y requerimientos.</p>
+
+						</div>
+
+						<div class="col-md-3">
+							<div class="heading-title heading-border-bottom heading-color">
+								<h3> <i class="fa fa-eye" aria-hidden="true"></i> Axion Monitor</h3>
+							</div>
+							<p style="font-size: 18px">Monitore preventivo de la infraestructura tecnológica 24 x 7.</p>
+
+						</div>
+
+						<div class="col-md-3">
+							<div class="heading-title heading-border-bottom heading-color">
+								<h3> <i class="fa fa-hdd-o" aria-hidden="true"></i> Axion Backup</h3>
+							</div>
+							<p style="font-size: 18px">Respaldo y recuperación sistematizados de estaciones y servidores.</p>
+
+						</div>
+
+						<div class="col-md-3">
+							<div class="heading-title heading-border-bottom heading-color">
+								<h3> <i class="fa fa-shield" aria-hidden="true"></i> Axion Security</h3>
+							</div>
+							<p style="font-size: 18px">Prevención por amenazas de seguridad y virus.</p>
+
+						</div>						
+
+					</div>
+					
+				</div>
+			</section>
+			<!-- /3 Cols -->
+
+			<!-- -->
+			<section>
+				<div class="container">
+
+					<div class="row">
+
+
+						<div class="col-md-8">
+							<h3 class="size-25">¿Porque elegir nuestras soluciones?</h3>
+
+								<p style="font-size: 18px">
+									Porque la tecnología es la clave para el desarrollo de su organización, es por ello que nos comprometemos en con ustedes generando valor a través de:
+								</p>
+
+							<ul class="list-unstyled" style="font-size: 18px">
+								<li><i class="fa fa-check" style="color: orange"></i> Soluciones integradas.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> Canales de distribución.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> Calidad Garantizada.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> Personal calificado.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> Soporte al alcance de un click.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> Sólida infraestructura.</li>
+
+							</ul>
+						</div>
+
+						<div class="col-md-4">
+							<h3 class="size-25">¿Qué ofrecemos?</h3>
+							<ul class="list-unstyled" style="font-size: 18px">
+								<li><i class="fa fa-check" style="color: orange"></i> Outsourcing TI.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> KASEYA VSA.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> Comercialización y sumistro.</li>
+								<li><i class="fa fa-check" style="color: orange"></i> Consultoría.</li>								
+							</ul>
+						</div>
+
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
+
+
+
+
 
 
 
