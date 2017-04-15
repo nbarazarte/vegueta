@@ -1,472 +1,7 @@
-<!DOCTYPE html>
-<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
-<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8" />
-		<title>AxionTI</title>
-		<meta name="keywords" content="HTML5,CSS3,Template" />
-		<meta name="description" content="tecnología" />
-		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />
+@extends('app')
 
-		<!-- mobile settings -->
-		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
-		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+@section('content')
 
-		<!-- WEB FONTS : use %7C instead of | (pipe) -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
-
-		<!-- CORE CSS -->
-		{!! Html::style('smarty/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
-
-		<!-- THEME CSS -->
-		{!! Html::style('smarty/assets/css/essentials.css') !!}
-		{!! Html::style('smarty/assets/css/layout.css') !!}
-
-		<!-- PAGE LEVEL SCRIPTS -->
-		{!! Html::style('smarty/assets/css/header-1.css') !!}
-		{!! Html::style('smarty/assets/css/color_scheme/orange.css') !!}
-
-
-		<!-- REVOLUTION SLIDER -->
-		{!! Html::style('smarty/assets/plugins/slider.revolution/css/extralayers.css') !!}
-		{!! Html::style('smarty/assets/plugins/slider.revolution/css/settings.css') !!}	
-	</head>
-
-	<!--
-		AVAILABLE BODY CLASSES:
-		
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
-
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain background
-		
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-		
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/boxed_background/1.jpg"
-	-->
-	<body class="smoothscroll enable-animation">
-
-		<!-- wrapper -->
-		<div id="wrapper">
-
-			<!-- 
-				AVAILABLE HEADER CLASSES
-
-				Default nav height: 96px
-				.header-md 		= 70px nav height
-				.header-sm 		= 60px nav height
-
-				.noborder 		= remove bottom border (only with transparent use)
-				.transparent	= transparent header
-				.translucent	= translucent header
-				.sticky			= sticky header
-				.static			= static header
-				.dark			= dark header
-				.bottom			= header on bottom
-				
-				shadow-before-1 = shadow 1 header top
-				shadow-after-1 	= shadow 1 header bottom
-				shadow-before-2 = shadow 2 header top
-				shadow-after-2 	= shadow 2 header bottom
-				shadow-before-3 = shadow 3 header top
-				shadow-after-3 	= shadow 3 header bottom
-
-				.clearfix		= required for mobile menu, do not remove!
-
-				Example Usage:  class="clearfix sticky header-sm transparent noborder"
-			-->
-
-
-						<div class="sticky-side sticky-side-left visible-md visible-lg">
-							<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
-								<i class="fa fa-facebook"></i>
-								<i class="fa fa-facebook"></i>
-							</a>
-							<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
-								<i class="fa fa-twitter"></i>
-								<i class="fa fa-twitter"></i>
-							</a>
-							<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
-								<i class="fa fa-youtube-play"></i>
-								<i class="fa fa-youtube-play"></i>
-							</a>
-							<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
-								<i class="fa fa-linkedin"></i>
-								<i class="fa fa-linkedin"></i>
-							</a>
-						</div>				
-			<div id="header" class="sticky transparent dark clearfix">
-
-				<!-- TOP NAV -->
-				<header id="topNav">
-					<div class="container">
-
-						<!-- Mobile Menu Button -->
-						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
-							<i class="fa fa-bars"></i>
-						</button>
-
-						<!-- Logo -->
-						<a class="logo pull-left" href="index.html">							
-							<img src="{{ asset('smarty/assets/images/top.png') }}" alt="logo axionti" title="axionti" />		
-						</a>
-
-
-
-						<!-- 
-							Top Nav 
-							
-							AVAILABLE CLASSES:
-							submenu-dark = dark sub menu
-						-->
-						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
-							<nav class="nav-main">
-
-								<!-- 
-									.nav-onepage
-									Required for onepage navigation links
-									
-									Add .external for an external link!
-								-->
-								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
-									<li class="active"><!-- HOME -->
-										<a href="#slider">
-											INICIO
-										</a>
-									</li>
-
-									<li><!-- FEATURES -->
-										<a href="#conocenos">
-											CONOCENOS
-										</a>
-									</li>
-
-									<li><!-- FEATURES -->
-										<a href="#servicios">
-											SERVICIOS
-										</a>
-									</li>
-									<li><!-- PRICING -->
-										<a href="#proyectos">
-											PROYECTOS
-										</a>
-									</li>
-
-									<li><!-- PRICING -->
-										<a href="#licenciamiento">
-											LICENCIAMIENTO
-										</a>
-									</li>																		
-									<li><!-- TESTIMONIALS -->
-										<a href="#testimonials">
-											TESTIMONIOS
-										</a>
-									</li>
-									<li><!-- PRICING -->
-										<a href="#ventas">
-											VENTAS
-										</a>
-									</li>
-								</ul>
-
-							</nav>
-						</div>
-
-					</div>
-				</header>
-				<!-- /Top Nav -->
-
-			</div>
-
-
-			<!-- HOME -->
-			<section id="slider" class="fullheight" style="">
-<!--
-					Navigation Styles:
-					
-						data-navigationStyle="" theme default navigation
-						
-						data-navigationStyle="preview1"
-						data-navigationStyle="preview2"
-						data-navigationStyle="preview3"
-						data-navigationStyle="preview4"
-						
-					Bottom Shadows
-						data-shadow="1"
-						data-shadow="2"
-						data-shadow="3"
-						
-					Slider Height (do not use on fullscreen mode)
-						data-height="300"
-						data-height="350"
-						data-height="400"
-						data-height="450"
-						data-height="500"
-						data-height="550"
-						data-height="600"
-						data-height="650"
-						data-height="700"
-						data-height="750"
-						data-height="800"
-				-->
-				<div class="fullscreenbanner" data-navigationStyle="preview1">
-					<ul class="hide">
-
-						<!-- SLIDE  -->
-						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 1" data-thumb="smarty/assets/images/demo/1200x800/ingeniero.jpg">
-
-							<img src="smarty/assets/images/1x1.png" data-lazyload="smarty/assets/images/demo/1200x800/ingeniero.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
-
-							<div class="tp-dottedoverlay twoxtwo"><!-- dotted overlay --></div>
-							<div class="overlay dark-3"><!-- dark overlay [1 to 9 opacity] --></div>
-
-							<div class="tp-caption customin ltl tp-resizeme text_white"
-								data-x="center"
-								data-y="205"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1000"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 10;">
-								<span class="weight-300"><b>SERVICIOS ADMINISTRADOS / CONSULTORIA EN TI / ENTRENAMIENTO EN TI </b></span>
-							</div>
-
-							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
-								data-x="center"
-								data-y="255"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1200"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 10;">
-								
-
-								<span class="label label-default" style="background-color: #ffffff">
-									<strong style="color: orange">AXIONTI</strong>	
-								</span>	
-
-							</div>
-
-
-							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato size-20"
-								data-x="center"
-								data-y="345"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1400"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 10; width: 100%; max-width: 750px; white-space: normal; text-align:center;">
-								Somos el talento humano que impulsa a la tecnología.
-							</div>
-
-							<div class="tp-caption customin ltl tp-resizeme"
-								data-x="center"
-								data-y="433"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1550"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 10;">
-								<a href="#purchase" class="btn btn-default btn-lg">
-									<span>Catálogo de Productos</span> 
-								</a>
-							</div>
-
-						</li>
-
-						<!-- SLIDE  -->
-						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 2" data-thumb="smarty/assets/images/demo/1200x800/servidores.jpeg">
-
-							<img src="smarty/assets/images/1x1.png" data-lazyload="smarty/assets/images/demo/1200x800/servidores.jpeg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" />
-
-							<div class="tp-caption very_large_text lfb ltt tp-resizeme"
-								data-x="right" data-hoffset="-100"
-								data-y="center" data-voffset="-100"
-								data-speed="600"
-								data-start="800"
-								data-easing="Power4.easeOut"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn" style="color: #ffffff">
-								<em style="color: orange">¿Por qué elegirnos?</em>
-							</div>
-
-							<div class="tp-caption medium_light_white lfb ltt tp-resizeme"
-								data-x="right" data-hoffset="-110"
-								data-y="center" data-voffset="10"
-								data-speed="600"
-								data-start="900"
-								data-easing="Power4.easeOut"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="500"
-								data-endeasing="Power4.easeIn">
-								<strong>porque la tecnología<br/>
-								es la clave para el desarrollo de su empresa.</strong>
-								<span style="font-size:24px;font-weight:400;color: #20A778">&ndash; Clover Brito</span>
-							</div>
-
-						</li>
-
-						<!-- SLIDE -->
-						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 3" data-thumb="smarty/assets/images/demo/video/Kaseya_thumb.png">
-
-							<img src="smarty/assets/images/1x1.png" data-lazyload="smarty/assets/images/demo/video/Kaseya.png" alt="video" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-
-							<div class="tp-caption tp-fade fadeout fullscreenvideo"
-								data-x="0"
-								data-y="100"
-								data-speed="1000"
-								data-start="1100"
-								data-easing="Power4.easeOut"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1500"
-								data-endeasing="Power4.easeIn"
-								data-autoplay="true"
-								data-autoplayonlyfirsttime="false"
-								data-nextslideatend="true"
-								data-volume="mute" 
-								data-forceCover="1" 
-								data-aspectratio="16:9" 
-								data-forcerewind="on" style="z-index: 2;">
-
-								<div class="tp-dottedoverlay twoxtwo"><!-- dotted overlay --></div>
-
-								<video class="" preload="none" width="100%" height="100%" poster="assets/images/demo/video/Kaseya.png">
-									
-									<source src="smarty/assets/images/demo/video/Kaseya.mp4" type="video/mp4" />
-								</video>
-
-							</div>
-
-							<div class="tp-caption customin ltl tp-resizeme text_white"
-								data-x="center"
-								data-y="205"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1000"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 3;">
-								<span class="weight-300"> <!-- DEVELOPMENT / MARKETING / DESIGN / PHOTO --></span>
-							</div>
-
-							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
-								data-x="center"
-								data-y="255"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1200"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 3;">
-								  
-								<span class="label label-default">
-									<strong style="color: orange">KASEYA VSA</strong>		
-								</span>	
-								 
-							</div>
-
-							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato size-20"
-								data-x="center"
-								data-y="345"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1400"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 3; width: 100%; max-width: 750px; white-space: normal; text-align:center;">
-								
-								<span class="label label-default">
-									<b style="font-size: 30px; color: #ffffff">
-										hará más
-									</b>
-									<em style="font-size: 50px; color: #20A778">
-										fácil
-									</em>
-									<b style="font-size: 30px; color: #ffffff">
-										tu gestión.
-									</b>
-								</span>								
-
-							</div>
-
-							<div class="tp-caption customin ltl tp-resizeme"
-								data-x="center"
-								data-y="413"
-								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-								data-speed="800"
-								data-start="1550"
-								data-easing="easeOutQuad"
-								data-splitin="none"
-								data-splitout="none"
-								data-elementdelay="0.01"
-								data-endelementdelay="0.1"
-								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 3;">
-
-								<!-- 
-									<a href="#purchase" class="btn btn-default btn-lg">
-										<span>Purchase Smarty Now</span> 
-									</a>
-								-->
-							</div>
-
-						</li>
-
-					</ul>
-					<div class="tp-bannertimer"></div>
-				</div>
-			</section>
-			<!-- /HOME -->
 
 			<!-- -->
 			<section>
@@ -498,68 +33,7 @@
 
 					</div>
 					
-				</div>
-			</section>
-			<!-- / -->
-
-				<div class="container">
-				
-					<header class="text-center">
-						<h2>Soluciones AXIONTI</h2>
-						<h3 style="font-size: 20px">Axion - Suite</h3>
-					</header>
-
-				</div>
-
-
-			<!-- 4 Cols -->
-			<section>
-				<div class="container">
-					<div class="row">
-					
-						<div class="col-md-3">
-							
-							<div class="heading-title heading-border-bottom heading-color">
-								<h3> <i class="fa fa-desktop" aria-hidden="true"></i> Axion Desk</h3>
-							</div>
-							
-							<p style="font-size: 18px">Atencion preventiva y correctiva de incidentes y requerimientos.</p>
-
-						</div>
-
-						<div class="col-md-3">
-							<div class="heading-title heading-border-bottom heading-color">
-								<h3> <i class="fa fa-eye" aria-hidden="true"></i> Axion Monitor</h3>
-							</div>
-							<p style="font-size: 18px">Monitore preventivo de la infraestructura tecnológica 24 x 7.</p>
-
-						</div>
-
-						<div class="col-md-3">
-							<div class="heading-title heading-border-bottom heading-color">
-								<h3> <i class="fa fa-hdd-o" aria-hidden="true"></i> Axion Backup</h3>
-							</div>
-							<p style="font-size: 18px">Respaldo y recuperación sistematizados de estaciones y servidores.</p>
-
-						</div>
-
-						<div class="col-md-3">
-							<div class="heading-title heading-border-bottom heading-color">
-								<h3> <i class="fa fa-shield" aria-hidden="true"></i> Axion Security</h3>
-							</div>
-							<p style="font-size: 18px">Prevención por amenazas de seguridad y virus.</p>
-
-						</div>						
-
-					</div>
-					
-				</div>
-			</section>
-			<!-- /3 Cols -->
-
-			<!-- -->
-			<section>
-				<div class="container">
+					<hr>
 
 					<div class="row">
 
@@ -578,7 +52,6 @@
 								<li><i class="fa fa-check" style="color: orange"></i> Personal calificado.</li>
 								<li><i class="fa fa-check" style="color: orange"></i> Soporte al alcance de un click.</li>
 								<li><i class="fa fa-check" style="color: orange"></i> Sólida infraestructura.</li>
-
 							</ul>
 						</div>
 
@@ -592,258 +65,10 @@
 							</ul>
 						</div>
 
-
 					</div>
 
-				</div>
-			</section>
-			<!-- / -->
-
-
-			<section id="conocenos" class="theme-color" style="height: 200px">
-				<div class="container">
-				
-					<header class="text-center">
-						<h2>Conócenos</h2>
-						<p style="font-size: 20px">Contamos con un equipo de excelentes profesionales</p>
-					</header>
-
-				</div>
-			</section>
-
-
-			<section>
-				<div class="container">
-				
-<div class="row">
-
-	<div class="col-md-3">
-
-		<div class="box-static box-border-top">
-			<div class="box-title">
-				<h4>Nuestro Equipo</h4>
-			</div>
-			<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus.</p>
-			<p><small>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis.</small></p>
-		</div>
-
-	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-danger">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/600x400/16-min.jpg" alt="" />
-						<h2>Fully Reposnive</h2>
-					</div>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2 box-danger">
-					<h4>BACK SIDE</h4>
-					<hr />
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-					<a href="#" class="social-icon social-facebook">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-facebook"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-danger">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/600x400/19-min.jpg" alt="" />
-						<h2>Clean Design</h2>
-					</div>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2 box-danger">
-					<h4>BACK SIDE</h4>
-					<hr />
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-					<a href="#" class="social-icon social-facebook">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-facebook"></i>
-					</a>
-
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-danger">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/600x400/31-min.jpg" alt="" />
-						<h2>Multipurpose</h2>
-					</div>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2 box-danger">
-					<h4>BACK SIDE</h4>
-					<hr />
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-					<a href="#" class="social-icon social-facebook">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-facebook"></i>
-					</a>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-</div>
-
-<hr>
-
-<div class="row">
-	
-	<div class="col-md-6">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-danger">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/600x400/16-min.jpg" alt="" />
-						<h2>Fully Reposnive</h2>
-					</div>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2 box-danger">
-					<h4>BACK SIDE</h4>
-					<hr />
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-					<a href="#" class="social-icon social-facebook">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-facebook"></i>
-					</a>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-6">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-danger">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/600x400/19-min.jpg" alt="" />
-						<h2>Clean Design</h2>
-					</div>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2 box-danger">
-					<h4>BACK SIDE</h4>
-					<hr />
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
-					<a href="#" class="social-icon social-facebook">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-facebook"></i>
-					</a>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-
-
-</div>
-
-
-				</div>
-			</section>
-
-
-
-
-			<section id="servicios" class="theme-color" style="height: 200px">
-				<div class="container">
-				
-					<header class="text-center">
-						<h2>Servicios</h2>
-						<p style="font-size: 20px">...</p>
-					</header>
-
-				</div>
-			</section>
-
-			<section>
-				<div class="container">
-					
-					<div class="row">
-					
-						<div class="col-lg-7 col-md-7 col-sm-7">
-							<h2 class="size-25">KASEYA</h2>
-
-							<p style="text-align: justify;font-size: 18px">
-								Somos partner de <strong style="color: black">Kaseya</strong>, un software que integra la automatización en la implementación de sistemas y la administración de procesos mediante la replicación de las mejores prácticas asociadas a la provisión de servicios.
-							<br>
-								Soluciones verificadas especialmente creadas para ofrecer servicios flexibles y adaptados a las necesidades tecnológicas de nuestros clientes.
-							<br>
-								Apoyandonos en las bondades de nuestra plataforma <strong style="color: black">(KASEYA <i class="fa fa-registered" aria-hidden="true"></i>)</strong>, experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confianbilidad y satisfacción.
-
-							</p>
-
-							<!--
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</p>
-								<cite>Albert Einstein</cite>
-							</blockquote>
-							-->
-
-						</div>
-
-						<div class="col-lg-5 col-md-5 col-sm-5">
-
-							<img class="img-responsive wow fadeIn" src="smarty/assets/images/kaseya.png" alt="" data-wow-delay="0.4s">
-
-						</div>						
-
-					</div>
-					
-				</div>
-			</section>
-
-			
-			<section id="">
-						
 				<div class="container text-center">
-					
+
 					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Su empresa obtendrá un servicio profesional</h1>
 					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Que lo lleve de la mano en el camino de la tecnología.</p>
 					
@@ -876,340 +101,742 @@
 
 						</div>
 					</div>
+				</div>
 
-					<hr>
+					<div class="heading-title heading-dotted text-center">
+
+						<h1> Soluciones <span> AXION</span></h1>
+
+					</div>
+
+					<div class="row">
+					
+						<div class="col-md-3">
+							
+							<div class="heading-title heading-border-bottom heading-color text-center">
+								<h3> <i class="fa fa-desktop" aria-hidden="true"></i> Axion Desk</h3>
+							</div>
+
+							<div class="box-video text-center">
+
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+								</div>
+
+								<p>
+									<strong>Atencion preventiva y correctiva de incidentes y requerimientos.</strong>
+								</p>
+														
+							</div>							
+
+						</div>
+
+						<div class="col-md-3">
+							<div class="heading-title heading-border-bottom heading-color text-center">
+								<h3> <i class="fa fa-eye" aria-hidden="true"></i> Axion Monitor</h3>
+							</div>
+
+							<div class="box-video text-center">
+
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+								</div>
+
+								<p>
+									<strong>Monitore preventivo de la infraestructura tecnológica 24 x 7.</strong>
+								</p>
+														
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+							<div class="heading-title heading-border-bottom heading-color text-center">
+								<h3> <i class="fa fa-hdd-o" aria-hidden="true"></i> Axion Backup</h3>
+							</div>
+
+							<div class="box-video text-center">
+
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+								</div>
+
+								<p>
+									<strong>Respaldo y recuperación sistematizados de equipos.</strong>
+								</p>
+														
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+							<div class="heading-title heading-border-bottom heading-color text-center">
+								<h3> <i class="fa fa-shield" aria-hidden="true"></i> Axion Security</h3>
+							</div>
 
 
-					<header class="text-center">
-						<h2>Servicios Administrados</h2>
-						
-					</header>
-<!-- -->
+							<div class="box-video text-center">
+
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+								</div>
+
+								<p>
+									<strong>Prevención por amenazas de seguridad y virus.</strong>
+								</p>
+														
+							</div>
+
+						</div>
+
+					</div>
+					
+					<div class="heading-title heading-dotted text-center">
+
+						<h1> Equipo <span> AXION</span></h1>
+
+					</div>
+				
+					<div class="row">
+
+						<div class="col-md-3">
+
+							<div class="box-static box-border-top">
+								<div class="box-title">
+									<h4>Nuestro Equipo</h4>
+								</div>
+
+								<p>
+									<small>
+										En AxionTI  apostamos por el talento humano como la base para el éxito y la consecución de nuestros objetivos. Por eso contamos con el apoyo y la colaboración de profesionales del área de Tecnología de la Información, Administración y Finanzas, Recursos Humanos, Relaciones Industriales y Desarrollo Organizacional, para  cumplir a cabalidad con nuestro compromiso.									
+									</small>
+								</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-9">
+
+							@include('equipoAxion')						
+
+						</div>
+
+					</div>
+
+					<div class="heading-title heading-dotted text-center">
+
+						<h1> Clientes <span> AXION</span></h1>
+
+					</div>
+
+						<div class="col-md-12">
+
+							<ul class="row clients-dotted list-inline">
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_1.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_2.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_3.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_4.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_5.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_6.jpg" alt="client" />
+									</a>
+								</li>
+
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_7.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_8.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_9.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_10.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_11.jpg" alt="client" />
+									</a>
+								</li>
+								<li class="col-md-2 col-sm-2 col-xs-6">
+									<a href="#">
+										<img class="img-responsive" src="smarty/assets/images/clientes/c_12.jpg" alt="client" />
+									</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+<section id="comercializacion" class="heading-title parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/servidores.jpeg');">
+	<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
+
+	<div class="container">
+
+		<div class="text-center">
+
+			<h3 style="font-size: 30px">Comercialización y <span>Suministros</span></h3>
+				<strong style="font-size: 20px">Software, Hardware y Arrendamiento de Equipos</strong>
+		</div>
+
+	</div>
+
+</section>
+
 			<section>
-				<div class="container">
 
-					<!-- FEATURED BOXES 3 -->
+				<div class="container text-center">
+
+					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Todo en equipamiento</h1>
+					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Que garantizará la continuidad operativa de su organización.</p>
+
+
+					<div class="heading-title heading-dotted text-center">
+
+						<h1> Software <span> </span></h1>
+
+					</div>	
+
+					<div class="heading-title heading-border-bottom heading-color text-left"> 
+						<h3>Kaseya <span>VSA</span></h3>
+					</div>							
+					
 					<div class="row">
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-tools-2"></i>
-								<h4>Soporte</h4>
-								<p>Contamos con una plataforma poderosa y una infraestructura  de alto nivel que nos permite garantizar un servicio</p>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-piechart"></i>
-								<h4>Auditoria</h4>
-								<p>Contamos con una modalidad de auditoria virtual (AVA) que nos permite generar resultados más confiables y en tiempo record.</p>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-mobile"></i>
-								<h4>Software y Hardware</h4>
-								<p>Todo en equipamiento que garantizará la continuidad operativa de su organización.</p>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<div class="text-center">
-								<i class="ico-light ico-lg ico-rounded ico-hover et-streetsign"></i>
-								<h4>Consultoría</h4>
-								<p>Tenemos un equipo especializado en la ejecución y puesta en marcha de Proyectos de Infraestructura</p>
-
-							</div>
-						</div>
-					</div>
-					<!-- /FEATURED BOXES 3 -->
-
-				</div>
-			</section>
-			<!-- / -->			
-
-				</div>
-
-			</section>
-			
-			<section id="proyectos" class="theme-color" style="height: 200px">
-				<div class="container">
-				
-					<header class="text-center">
-						<h2>Proyectos</h2>
-						<p style="font-size: 20px">...</p>
-					</header>
-
-				</div>
-			</section>
-
-			<section id="">
-				<div class="container">
-
-					<div class="row">
-
-							sin informacion
-					</div>
-				</div>
-			</section>		
-
-
-
-			<section id="licenciamiento" class="theme-color" style="height: 200px">
-				<div class="container">
-				
-					<header class="text-center">
-						<h2>Licenciamiento</h2>
-						<p style="font-size: 20px">...</p>
-					</header>
-
-				</div>
-			</section>
-
-			<section id="">
-				<div class="container">
-
-					<div class="row">
-
-							sin informacion
-					</div>
-				</div>
-			</section>	
-
-			<section id="testimonials" class="theme-color" style="height: 200px">
-				<div class="container">
-				
-					<header class="text-center">
-						<h2>Testimonios</h2>
-						<p style="font-size: 20px">Le garantizamos la calidad a nuestros clientes</p>
-					</header>
-
-				</div>
-			</section>
-
-			<!-- TESTIMONIALS -->
-			<section id="" class="alternate">
-				<div class="container">
-
-					<!-- 
-						Note: remove class="rounded" from the img for squared image!
-					-->
-					<div class="row margin-bottom-60">
-						<div class="col-md-4">
-							<div class="testimonial testimonial-bordered padding-15">
-								<figure class="pull-left">
-									<img class="rounded" src="smarty/assets/images/demo/people/300x300/2-min.jpg" alt="" />
-								</figure>
-								<div class="testimonial-content">
-									<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero!</p>
-									<cite>
-										Felicia Doe
-										<span>Company Ltd.</span>
-									</cite>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="testimonial testimonial-bordered padding-15">
-								<figure class="pull-left">
-									<img class="rounded" src="smarty/assets/images/demo/people/300x300/1-min.jpg" alt="" />
-								</figure>
-								<div class="testimonial-content">
-									<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero!</p>
-									<cite>
-										Joana Doe
-										<span>Company Ltd.</span>
-									</cite>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="testimonial testimonial-bordered padding-15">
-								<figure class="pull-left">
-									<img class="rounded" src="smarty/assets/images/demo/people/300x300/6-min.jpg" alt="" />
-								</figure>
-								<div class="testimonial-content">
-									<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero!</p>
-									<cite>
-										Melissa Doe
-										<span>Company Ltd.</span>
-									</cite>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-				</div>
-			</section>
-			<!-- /TESTIMONIALS -->
-
-
-
-<section id="ventas" class="theme-color" style="height: 200px">
-				<div class="container">
-				
-					<header class="text-center">
-						<h2>Ventas</h2>
-						<p style="font-size: 20px">...</p>
-					</header>
-
-				</div>
-			</section>
-
-
-			<!-- PRICING -->
-			<section id="">
-				<div class="container">
-
-					<div class="row">
-
-						<div class="col-md-3 col-sm-3">
-							
-							<div class="price-clean">                                
-								<h4>
-									<sup>$</sup>15<em>/month</em>
-								</h4>
-								<h5> Starter </h5>
-								<hr />
-								<p>For individuals looking for something simple to get started.</p>
-								<hr />
-								<a href="#" class="btn btn-3d btn-teal">KASEYA VSA</a>
-							</div>
-						
-						</div>
-
-						<div class="col-md-3 col-sm-3">
-							
-							<div class="price-clean">                                
-								<h4>
-									<sup>$</sup>25<em>/month</em>
-								</h4>
-								<h5> BUSINESS </h5>
-								<hr />
-								<p>For individuals looking for something simple to get started.</p>
-								<hr />
-								<a href="#" class="btn btn-3d btn-teal">Learn More</a>
-							</div>
-						
-						</div>
-
-						<div class="col-md-3 col-sm-3">
-							
-							<div class="price-clean price-clean-popular"> 
-								<div class="ribbon"> 
-									<div class="ribbon-inner">POPULAR</div>
-								</div>
+					
+						<div class="col-lg-7 col-md-7 col-sm-7">
 								
-								<h4>
-									<sup>$</sup>35<em>/month</em>
-								</h4>
-								<h5> DEVELOPER </h5>
-								<hr />
-								<p>For individuals looking for something simple to get started.</p>
-								<hr />
-								<a href="#" class="btn btn-3d btn-primary">Learn More</a>
-							</div>
-						
+							<img style="width: 30%" class="pull-left img-responsive wow fadeIn" src="smarty/assets/images/kaseya.png" alt="" data-wow-delay="0.4s">
+
+							<p style="text-align: justify;font-size: 18px">
+								Somos partner de <strong style="color: black">Kaseya</strong>, un software que integra la automatización en la implementación de sistemas y la administración de procesos mediante la replicación de las mejores prácticas asociadas a la provisión de servicios.
+							<br>
+								Soluciones verificadas especialmente creadas para ofrecer servicios flexibles y adaptados a las necesidades tecnológicas de nuestros clientes.
+							<br>
+								Apoyandonos en las bondades de nuestra plataforma <strong style="color: black">(KASEYA <i class="fa fa-registered" aria-hidden="true"></i>)</strong>, experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confianbilidad y satisfacción.
+
+							</p>
+
 						</div>
 
-						<div class="col-md-3 col-sm-3">
-							
-							<div class="price-clean">                                
-								<h4>
-									<sup>$</sup>50<em>/month</em>
-								</h4>
-								<h5> VIP </h5>
-								<hr />
-								<p>For individuals looking for something simple to get started.</p>
-								<hr />
-								<a href="#" class="btn btn-3d btn-teal">Learn More</a>
+						<div class="col-lg-5 col-md-5 col-sm-5">
+
+							<div class="box-video text-center">
+
+								<div class="embed-responsive embed-responsive-16by9  wow bounceIn">
+									<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/WmEGfNZWdgE"></iframe>
+								</div>
+
 							</div>
-						
+
+						</div>						
+
+					</div>
+
+
+
+
+				<div class="row">
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
+							<div class="box-icon-title">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<h2>Auditoría de red e Inventario</h2>
+							</div>
+							
+							<ul class="text-left">
+								<li>Descubrir, instalar y auditar los nuevos sistemas que entran en la red.</li>
+								<li>Registrar cualquier hardware, cambios de software o sistema.</li>
+								<li>Implementar plantillas de configuración del sistema y las normas.</li>
+							</ul>
+
 						</div>
 
 					</div>
 
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
+							<div class="box-icon-title">
+								<i class="fa fa-cloud" aria-hidden="true"></i>
+								<h2>Monitoreo de Red</h2>
+							</div>
+							
+							<ul class="text-left">
+								<li>Monitoreo desde Windows, VMware, Linux, Cisco IOS y otros.</li>
+								<li>Se puede utilizar para controlar todos los aspectos de los dispositivos conectados a la red.</li>
+								<li>Se puede realizar una consulta SQL.</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
+							<div class="box-icon-title">
+								<i class="fa fa-terminal" aria-hidden="true"></i>
+								<h2>Control Remoto</h2>
+							</div>
+
+							<ul class="text-left">
+								<li>Una solución de control remoto completo.</li>
+								<li>Conexión instantánea con extraordinaria fiabilidad, incluso a través de redes de alta latencia.</li>
+								<li>Soporta múltiples monitores en el punto final remoto.</li>
+							</ul>
+
+						</div>	
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
+							<div class="box-icon-title">
+								<i class="fa fa-eye-slash" aria-hidden="true"></i>
+								<h2>Supervisión y Gestión Remota</h2>
+							</div>
+
+							<ul class="text-left">
+								<li>Monitorización proactiva de servidores.</li>
+								<li>Estaciones de trabajo.</li>
+								<li>Registros de eventos y aplicaciones</li>
+								<li>Seguimiento robusto y de alerta para las máquinas administradas</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
+							<div class="box-icon-title">
+								<i class="fa fa-shield" aria-hidden="true"></i>
+								<h2>Antivirus y Gestión de Seguridad</h2>
+							</div>
+
+							<ul class="text-left">
+								<li>Proporciona actualizaciones y alertas de estado en tiempo real.</li>
+								<li>Configuración de Perfiles.</li>
+								<li>Gestión de Licencias.</li>
+								<li>Conjunto de Columnas.</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
+							<div class="box-icon-title">
+								<i class="fa fa-bug" aria-hidden="true"></i>
+								<h2>Administración de Parches</h2>
+							</div>
+
+							<ul class="text-left">
+								<li>Implementación automatizada de parches.</li>
+								<li>Horario por el tiempo, equipo, grupo o colecciones definidas por el usuario.</li>
+								<li>Despliegue de todos los parches necesarios a través de máquinas.</li>
+							</ul>
+
+						</div>
+
+					</div>		
+
 				</div>
-			</section>
-			<!-- /PRICING -->
+
+				<div class="heading-title heading-border-bottom heading-color text-left"> 
+					<h3>Backup <span></span></h3>
+				</div>	
+
+				<div class="heading-title heading-border-bottom heading-color text-left"> 
+					<h3>Microsoft <span></span></h3>
+				</div>	
+
+				<div class="heading-title heading-border-bottom heading-color text-left"> 
+					<h3>Antivirus <span></span></h3>
+				</div>	
+
+				<div class="heading-title heading-dotted text-center">
+
+					<h1> Hardware <span> </span></h1>
+
+				</div>
+
+					
+				<div class="heading-title heading-dotted text-center">
+
+					<h1> Arrendamiento de <span> Equipos</span></h1>
+
+				</div>
 
 
+				<div class="heading-title heading-dotted text-center">
+
+					<h1> Soporte y Servicios de <span> AXION</span></h1>
+
+				</div>
 
 
-			<!-- FOOTER -->
-			<footer id="footer">
+							<!-- FEATURED BOXES 3 -->
+							<div class="row">
+								<div class="col-md-5th">
+									<div class="text-center">
+										<i class="ico-light ico-lg ico-rounded ico-hover et-tools-2"></i>
+										<h4>Soporte</h4>
+										<p>Contamos con una plataforma poderosa y una infraestructura  de alto nivel que nos permite garantizar un servicio</p>
 
-				<div class="copyright">
+									</div>
+								</div>
+								<div class="col-md-5th">
+									<div class="text-center">
+										<i class="ico-light ico-lg ico-rounded ico-hover et-magnifying-glass"></i>
+										<h4>Auditoria</h4>
+										<p>Contamos con una modalidad de auditoria virtual (AVA) que nos permite generar resultados más confiables y en tiempo record.</p>
+
+									</div>
+								</div>
+								<div class="col-md-5th">
+									<div class="text-center">
+										<i class="ico-light ico-lg ico-rounded ico-hover et-mobile"></i>
+										<h4>Monitoreo</h4>
+										<p>
+											
+											Somos pioneros en el mercado venezolano con una Plataforma poderosa, segura, proactiva,  que permite La Gestión Preventiva de manera remota como ninguna otra en el mercado. 
+
+										</p>
+
+									</div>
+								</div>
+								<div class="col-md-5th">
+									<div class="text-center">
+										<i class="ico-light ico-lg ico-rounded ico-hover et-streetsign"></i>
+										<h4>Consultoría</h4>
+										<p>Tenemos un equipo especializado en la ejecución y puesta en marcha de Proyectos de Infraestructura</p>
+
+									</div>
+								</div>
+								<div class="col-md-5th">
+									<div class="text-center">
+										<i class="ico-light ico-lg ico-rounded ico-hover et-printer"></i>
+										<h4>Service Desk</h4>
+										<p>
+											
+											Contratos de mantenimiento de computadores e impresoras, pasando por la asignación de talento especializado a través de perfiles hasta llegar a diversas modalidades de Service Desk externo 											
+										</p>
+
+									</div>
+								</div>								
+							</div>
+							<!-- /FEATURED BOXES 3 -->
+
+						</div>
+					</section>
+					<!-- / -->
+
+				<section id="proyectos" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/1200x800/servidores.jpeg');">
+					<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
+
 					<div class="container">
 
-						<div class="row">
-							<div class="col-md-2">
-								<b>Copyright &copy; <?=date('Y')?> AXIONTI</b>
-							</div>
+						<div class="text-center">
 
-							<div class="col-md-8">
-
-							</div>
-
-							<div class="col-md-2">
-								<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
-									<i class="fa fa-facebook"></i>
-									<i class="fa fa-facebook"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
-									<i class="fa fa-twitter"></i>
-									<i class="fa fa-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
-									<i class="fa fa-youtube-play"></i>
-									<i class="fa fa-youtube-play"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
-									<i class="fa fa-linkedin"></i>
-									<i class="fa fa-linkedin"></i>
-								</a>										
-							</div>
+							<h3 style="font-size: 30px">Proyectos <span>Realizados</span></h3>
+								<strong style="font-size: 20px"> Nuestros Proyectos Realizados</strong>
 						</div>
 
-
 					</div>
-				</div>
-			</footer>
-			<!-- /FOOTER -->
 
-		</div>
-		<!-- /wrapper -->
+				</section>
 
-
-		<!-- SCROLL TO TOP -->
-		<a href="#" id="toTop"></a>
-
-
-		<!-- PRELOADER -->
-		<div id="preloader">
-			<div class="inner">
-				<span class="loader"></span>
-			</div>
-		</div><!-- /PRELOADER -->
-
-
-		<!-- JAVASCRIPT FILES -->
-		<script type="text/javascript">var plugin_path = 'smarty/assets/plugins/';</script>
-		{!! Html::script('smarty/assets/plugins/jquery/jquery-2.1.4.min.js') !!}
-		{!! Html::script('smarty/assets/js/scripts.js') !!}
-
-		<!-- REVOLUTION SLIDER -->
-		{!! Html::script('smarty/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js') !!}
-
-		{!! Html::script('smarty/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js') !!}
-
-		{!! Html::script('smarty/assets/js/view/demo.revolution_slider.js') !!}
-
+					<section>
+						
+						<div class="container">
 		
-	</body>
-</html>
+							<div class="row">
+								<div class="col-md-12">
+									<p style="text-align: center;font-size: 18px">
+
+										Consolidar y optimizar la plataforma tecnológica es clave para el negocio y en AXION TI. Nos diferenciamos por nuestra capacidad de ofrecer el servicio de manera integral, incluyendo la definición de la estrategia, el diseño, la construcción y la operación del mismo. Aplicamos técnicas y metodologías de clase mundial e integramos nuestra experiencia certificada, en tecnologías innovadoras que garantizan la consecución de los objetivos del negocio.										
+									</p>
+								</div>
+							</div>
+
+							<div class="divider"><!-- divider --></div>
+
+							<ul class="list-unstyled">
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Proyecto:</span> <strong class="text-warning"> Implementación del fortinet</strong></label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Fecha:</span> Febrero-2016</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Empresa:</span> ISC Bunkerramos</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Horas:</span> </label>
+								</li>								
+								<li>
+									
+									Descripción: Se implementó el sistema de cortafuego y medición del ancho de banda para la empresa ISC bunkerramos, el cual fue terminado con éxito implementando lo siguientes puntos:
+									<ul>
+										<li>Proteger la red interna de una organización, separando los servicios privados de la red pública de los servicios personal así como asegurarla transferencia de datos, reducir el ancho de banda para evitar “cuellos de botella” en horarios críticos.</li>
+										<li>Habilitar el acceso a usuarios remotos; conectarse y acceder a la red.</li>
+										<li>Disminuir el consumo de ancho de banda en horas críticas.</li>
+										<li>Filtrar por seguridad el contenido de páginas web.</li>
+										<li>Proporcionar conectividad segura entre dos o múltiples redes privadas o LAN.</li>
+										<li>Protección durante la transmisión de los datos.</li>																				
+									</ul>
+
+								</li>
+							</ul>
+
+							<div class="divider"><!-- divider --></div>
+
+
+							<ul class="list-unstyled">
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Proyecto:</span> <strong class="text-warning"> Implementación de Central Telefónica</strong></label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Fecha:</span> Diciembre-2016</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Empresa:</span> ISC Bunkerramos</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Horas:</span> 80</label>
+								</li>								
+								<li>
+									Descripción:								
+									<ul>
+										<li>Actualización de la central telefónica que tenía la empresa, luego de 10 años la cual se encontraba en periodo de obsolescencia.  Se ejecuto la Instalación del Sistema Unificado cisco modelo communications manager business edition 6000 CM de Comunicación Cisco en ISC Bunker.</li>
+										<li>Cambio de call manager.</li>
+										<li>Actualización de las licencias según perfil y cargo.</li>
+										<li>Se distribuyó las licencias bajo el esquema planteado.</li>
+									</ul>
+								</li>	
+								<li>
+									Beneficios:
+									<ul>
+										<li>Central telefónica amparado bajo un contrato de licenciamiento.</li>
+										<li>Se minimizan los riesgos de problemas con el equipo e inestabilidad.</li>
+										<li>Implementación de Cisco Jabber a los directores de la empresa puede dotar a sus empleados de funciones de presencia, mensajería, voz, vídeo, mensajería de voz, uso compartido de escritorios y conferencias a distancia.</li>										
+									</ul>
+								</li>
+							</ul>
+
+							<div class="divider"><!-- divider --></div>							
+
+							<ul class="list-unstyled">
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Proyecto:</span> <strong class="text-warning"> Creacion, configuracion e instalación de un Sistema de Backup (Nass /Google Drive)</strong></label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Fecha:</span> Diciembre-2016</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Empresa:</span> Ofilarco</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Horas:</span> 160</label>
+								</li>								
+								<li>
+									Descripción: Se realizó la implementación de una herramienta de backup, con su esquema de sheduler de los servidores y la subida a google drive como segundo respaldo, el mismo fue ejecutado, configurado y puesta en producción con total éxito.
+								</li>
+							</ul>
+
+							<div class="divider"><!-- divider --></div>
+
+							<ul class="list-unstyled">
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Proyecto:</span> <strong class="text-warning"> Monitor Tecnológico</strong></label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Fecha:</span> Abril-2016</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Empresa:</span> Expotran</label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Horas:</span> 160</label>
+								</li>								
+								<li>
+								Descripción: Se basa en la aplicación de las últimas tecnologías en monitoreo y control mediante la instalación y uso de agentes virtuales en las estaciones de trabajo, lo cual nos permitió:
+									<ul>
+										<li>Realizar el análisis y levantamiento de la plataforma tecnológica actual de la organización.</li>
+										<li>Inventario y diagnóstico de las estaciones de trabajos instaladas en su organización.</li>
+										<li>Elaboración de mantenimiento preventivo, correctivo y limpieza de caches fuera de horario de trabajo minimizando el tiempo offline.</li>
+										<li>Resultados adaptados a las normas ISO o auditorías internas de equipos.</li>
+									</ul>
+								</li>
+							</ul>
+
+							<div class="divider"><!-- divider --></div>
+
+							<ul class="list-unstyled">
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Proyecto:</span> <strong class="text-warning"> </strong></label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Fecha:</span> </label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Empresa:</span> </label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Horas:</span> </label>
+								</li>								
+								<li>
+									<ul>
+										<li>New: Flot Charts</li>
+										<li>Fix: Various small fixes</li>
+									</ul>
+								</li>
+							</ul>
+
+							<div class="divider"><!-- divider --></div>
+
+							<ul class="list-unstyled">
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Proyecto:</span> <strong class="text-warning"> </strong></label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Fecha:</span> </label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Empresa:</span> </label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Horas:</span> </label>
+								</li>								
+								<li>
+									<ul>
+										<li>New: Flot Charts</li>
+										<li>Fix: Various small fixes</li>
+									</ul>
+								</li>
+							</ul>
+
+							<div class="divider"><!-- divider --></div>
+
+							<ul class="list-unstyled">
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Proyecto:</span> <strong class="text-warning"> </strong></label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Fecha:</span> </label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Empresa:</span> </label>
+								</li>
+								<li class="text-muted">
+									<label><span class="width-100 inline-block">Horas:</span> </label>
+								</li>								
+								<li>
+									<ul>
+										<li>New: Flot Charts</li>
+										<li>Fix: Various small fixes</li>
+									</ul>
+								</li>
+							</ul>
+
+							<div class="divider"><!-- divider --></div>																											
+
+						</div>
+
+					</section>
+
+
+
+			<section id="casos" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/1200x800/ingeniero.jpg');">
+				<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+
+						<h3 style="font-size: 30px">Casos de <span> Éxito</span></h3>
+							<strong style="font-size: 20px"> Le garantizamos la calidad a nuestros clientes </strong>
+					</div>
+
+				</div>
+
+			</section>
+
+
+<!-- 
+	data-plugin-options:
+		"transitionStyle":"fadeUp" (fade,backSlide,goDown,fadeUp)
+
+	Note: remove class="rounded" from the img for squared image!
+-->
+<div class="testimonial-bordered">
+	<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 10000, "navigation": false, "pagination": true, "transitionStyle":"fade"}'>
+		
+		<div class="testimonial">
+			
+				<img class="" src="smarty/assets/images/clientes/hipocampus.png" alt="" />
+			
+			<div class="testimonial-content nopadding">
+				<p class="lead">Tienen el conocimiento y la capacidad de responder a los requerimientos exigidos por la empresa en el momento que se requieren.</p>
+				<cite>
+					Gissela Tinoco
+					<span>Directora General de Hippocampus Vacation Club.</span>
+				</cite>
+			</div>
+		</div>
+
+		<div class="testimonial">
+			
+				<img class="" src="smarty/assets/images/clientes/cam.png" alt="" />
+			
+			<div class="testimonial-content nopadding">
+				<p class="lead">Me siento muy satisfecho con el apoyo que AxionTI me ha brindado en todos los requerimientos que he tenido en el último año. A través del tiempo he venido notando proceso de mejora continua que queda evidenciado en la velocidad de atención a los casos.</p>
+				<cite>
+					Carlos Toscano
+					<span>Director General de Cam Corporación American Minerals.</span>
+				</cite>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+@endsection
