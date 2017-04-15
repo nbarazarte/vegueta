@@ -237,63 +237,63 @@
 							<ul class="row clients-dotted list-inline">
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_1.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_1.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_2.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_2.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_3.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_3.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_4.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_4.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_5.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_5.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_6.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_6.jpg" alt="client" />
 									</a>
 								</li>
 
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_7.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_7.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_8.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_8.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_9.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_9.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_10.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_10.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_11.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_11.jpg" alt="client" />
 									</a>
 								</li>
 								<li class="col-md-2 col-sm-2 col-xs-6">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/clientes/c_12.jpg" alt="client" />
+										<img class="img-responsive thumbnail" src="smarty/assets/images/clientes/c_12.jpg" alt="client" />
 									</a>
 								</li>
 							</ul>

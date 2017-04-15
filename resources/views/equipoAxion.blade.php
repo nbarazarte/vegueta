@@ -21,7 +21,7 @@
 
 								<div class="img-hover">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/demo/451x300/24-min.jpg" alt="">
+										<img class="img-responsive thumbnail" src="smarty/assets/images/demo/451x300/24-min.jpg" alt="">
 									</a>
 
 									<h4 class="text-left margin-top-20"><a href="#">Clover Brito</a></h4>
@@ -46,7 +46,7 @@
 								</div>
 								<div class="img-hover">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/demo/451x300/17-min.jpg" alt="">
+										<img class="img-responsive thumbnail" src="smarty/assets/images/demo/451x300/17-min.jpg" alt="">
 									</a>
 
 									<h4 class="text-left margin-top-20"><a href="#">Nailis Blandin</a></h4>
@@ -71,7 +71,7 @@
 								</div>
 								<div class="img-hover">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/demo/451x300/30-min.jpg" alt="">
+										<img class="img-responsive thumbnail" src="smarty/assets/images/demo/451x300/30-min.jpg" alt="">
 									</a>
 
 									<h4 class="text-left margin-top-20"><a href="#">Jonnatan ???</a></h4>
@@ -94,7 +94,7 @@
 								</div>
 								<div class="img-hover">
 									<a href="#">
-										<img class="img-responsive" src="smarty/assets/images/demo/451x300/26-min.jpg" alt="">
+										<img class="img-responsive thumbnail" src="smarty/assets/images/demo/451x300/26-min.jpg" alt="">
 									</a>
 
 									<h4 class="text-left margin-top-20"><a href="#">Edwin ???</a></h4>
