@@ -4,7 +4,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>AxionTI</title>
+		<title>AXIONTI</title>
 		<meta name="keywords" content="HTML5,CSS3,Template" />
 		<meta name="description" content="tecnología" />
 		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />

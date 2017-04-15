@@ -69,7 +69,7 @@
 								data-endelementdelay="0.1"
 								data-endspeed="1000"
 								data-endeasing="Power4.easeIn" style="z-index: 10;">
-								<span style="color: orange">AxionTI</span>
+								<span style="color: orange">AXIONTI</span>
 							</div>
 
 							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato"
