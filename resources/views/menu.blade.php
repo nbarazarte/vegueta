@@ -30,32 +30,91 @@
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 									<li class="active"><!-- HOME -->
-										<a href="#slider">
-											AXIONTI
-										</a>
+
+										@if(Route::current()->getName() == 'home')
+										
+											<a href="#slider">
+												AXIONTI
+											</a>
+
+										@else
+
+											<a href="{{route('home')}}">
+												AXIONTI
+											</a>
+										
+										@endif
+
 									</li>
 
 									<li><!-- FEATURES -->
-										<a href="#comercializacion">
-											COMERCIALIZACIÓN Y SUMINISTROS
-										</a>
+
+										@if(Route::current()->getName() == 'home')
+										
+											<a href="#comercializacion">
+												COMERCIALIZACIÓN Y SUMINISTROS
+											</a>
+
+										@else
+
+											<a href="http://localhost:8001#comercializacion">
+												COMERCIALIZACIÓN Y SUMINISTROS
+											</a>
+										
+										@endif
+
 									</li>
 
 									<li><!-- FEATURES -->
-										<a href="#proyectos">
-											PROYECTOS
-										</a>
+
+										@if(Route::current()->getName() == 'home')
+										
+											<a href="#proyectos">
+												PROYECTOS
+											</a>
+										@else
+
+											<a href="http://localhost:8001#proyectos">
+												PROYECTOS
+											</a>
+										
+										@endif
+
 									</li>
-									<li><!-- PRICING -->
-										<a href="#casos">
-											CASOS DE ÉXITO
-										</a>
+									<li>
+
+										@if(Route::current()->getName() == 'home')
+										
+											<a href="#casos">
+												CASOS DE ÉXITO
+											</a>
+
+										@else
+
+											<a href="http://localhost:8001#casos">
+												CASOS DE ÉXITO
+											</a>
+										
+										@endif
+
 									</li>
 
-									<li><!-- PRICING -->
-										<a href="#contacto">
-											CONTÁCTANOS
-										</a>
+									<li>
+
+										@if(Route::current()->getName() == 'home')
+										
+											<a href="#contacto">
+												CONTÁCTANOS
+											</a>
+											
+										@else
+
+											<a href="http://localhost:8001#contacto">
+												CONTÁCTANOS
+											</a>
+										
+										@endif
+
 									</li>																		
 	
 								</ul>

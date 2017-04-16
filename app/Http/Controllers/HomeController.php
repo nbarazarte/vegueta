@@ -19,6 +19,148 @@ class HomeController extends Controller
         return view('index');
     }
 
+
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function terminos()
+    {
+
+        return \View::make('terminos');
+        
+    }  
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function politicas()
+    {
+
+        return \View::make('politicas');
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function faq()
+    {
+
+        return \View::make('faq');
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function mapa()
+    {
+
+        return \View::make('mapa');
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function trabaja()
+    {
+
+        return \View::make('trabaja');
+        
+    }  
+    
+    public function enviar()
+    {       
+        /*$message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Teléfono: ".$_POST['phone'];
+                
+        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+        $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $cabeceras .= "Content-Type: image/png";    
+        $cabeceras .= 'To: Neil Barazarte <ezebarazarte@gmail.com>' . "\r\n";
+        $cabeceras .= 'From: '.$_POST['name'].' <'.$_POST['email'].'>' . "\r\n";     
+        
+        if (!mail('ezebarazarte@gmail.com', $_POST['asunto'].' - ilernus.com', $message, $cabeceras)) {
+            //echo "Error: " . $mail->ErrorInfo;
+            Session::flash('message','Error!, el mensaje no se pudo enviar');
+        } else {
+            Session::flash('message','Su mensaje fue enviado exitosamente!');
+        }
+
+        return Redirect::to('/#contacto');*/
+
+        if($_POST['cargo'] != 'otros') {
+
+            $cargo = $_POST['cargo'];
+
+        }else{
+
+            $cargo = $_POST['otroCargo'];
+        }
+
+
+        if($_POST['sector'] != 'otros') {
+
+            $sector = $_POST['sector'];
+
+        }else{
+
+            $sector = $_POST['otroSector'];
+        }        
+
+        $message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Cargo: ".$cargo."<br> Sector: ".$sector."<br> Teléfono: ".$_POST['phone']."<br> Correo Electrónico: ".$_POST['email'];
+
+        $mail = new PHPMailer;
+        $mail->isSMTP();
+        $mail->SMTPDebug = 0;
+        $mail->Debugoutput = 'html';
+        $mail->Host = "smtp.gmail.com";
+        $mail->Port = 465;
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = "ssl";
+
+        //$mail->Username = "socialmedia@monitorbg.com";
+        //$mail->Password = "Monitor.2017";
+        //$mail->SetFrom('socialmedia@monitorbg.com');
+
+        $mail->Username = "atrellus@gmail.com";
+        $mail->Password = "falcor90dbb";
+        $mail->SetFrom('socialmedia@monitorbg.com');        
+
+        $mail->AddReplyTo($_POST['email'], $_POST['name']);
+        //$mail->addAddress("ventas@ilernus.com");
+        $mail->addAddress("ezebarazarte@gmail.com");
+        
+        $mail->Subject = "ilernus.com - ". $_POST['asunto'];
+        //$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
+        $mail->msgHTML($message);
+        $mail->AltBody = 'Contactanos';
+        //$mail->addAttachment('images/imagen_adjunta.png');
+         
+        if (!$mail->send()) {
+            //echo "Error: " . $mail->ErrorInfo;
+            Session::flash('message','Error!'.$mail->ErrorInfo);
+        } else {
+            Session::flash('message','Su mensaje fue enviado exitosamente!');
+        }
+
+        return Redirect::to('http://'.$_SERVER['SERVER_NAME'].'/Contáctanos#mensaje-enviado');
+
+    } 
+
     /**
      * Show the form for creating a new resource.
      *

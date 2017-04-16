@@ -15,26 +15,11 @@
 
 					<div class="row">
 					
-						<div class="col-lg-5 col-md-5 col-sm-5">
+							<img class="pull-right img-responsive wow fadeIn thumbnail" src="smarty/assets/images/lideres.jpg" alt="" data-wow-delay="0.4s">
 
-							<img class="img-responsive wow fadeIn" src="smarty/assets/images/top.png" alt="" data-wow-delay="0.4s">
-
-						</div>
-
-						<div class="col-lg-7 col-md-7 col-sm-7">
-							
 							<p style="text-align: justify;font-size: 18px">
-								En <span style="color: orange">AXIONTI</span>, contamos con más de 12 años de experiencia en el área de tecnología de la información brindando: soporte, excelencia y soluciones innovadoras que permiten la continuidad operativa y eficiencia de nuestros clientes, es por ello qué, en Venezuela, seguimos conquistando el mercado a través de nuestro talento humano altamente capacitado que contribuirán en ofrecerles el mejor servicio.								
+								Contamos con más de 12 años de experiencia en el área de tecnología de la información brindando: <span style="color: orange">soporte, excelencia y soluciones innovadoras</span> que permiten la continuidad operativa y eficiencia de nuestros clientes, es por ello qué, en Venezuela, seguimos conquistando el mercado a través de nuestro talento humano altamente capacitado que contribuirán en ofrecerles el mejor servicio.								
 							</p>
-
-							<!--
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.</p>
-								<cite>Albert Einstein</cite>
-							</blockquote>
-							-->
-
-						</div>
 
 					</div>
 					
@@ -78,11 +63,11 @@
 					
 					<div class="row margin-top-100 text-left">
 
-						<div class="col-sm-8" align="center">
-							<img class="thumbnail" src="smarty/assets/images/slide2-datacenter.jpg" alt="product image" />
+						<div class="col-md-8" align="center">
+							<img class="img-responsive wow fadeIn thumbnail" src="smarty/assets/images/slide2-datacenter.jpg" alt="product image" />
 						</div>
 
-						<div class="col-sm-4">
+						<div class="col-md-4">
 							<h3 class="weight-300">A nosotros en  <span>AXIONTI</span></h3>
 						
 							<p>
@@ -324,7 +309,6 @@
 					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Todo en Equipamiento</h1>
 					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Que Garantizará la Continuidad Operativa de su Organización.</p>
 
-
 					<div class="heading-title heading-dotted text-center">
 
 						<h1> Software <span> </span></h1>
@@ -373,15 +357,89 @@
 
 					<div class="col-md-4">
 
-						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
+						<div class="box-icon box-icon-side box-icon-color box-icon-round">
+
 							<div class="box-icon-title">
-								<i class="fa fa-search" aria-hidden="true"></i>
-								<h2>Auditoría de red e Inventario</h2>
+								<i class="fa fa-eye-slash" aria-hidden="true"></i>
+								<h2>Supervisión y Gestión Remota</h2>
+							</div>
+
+							<ul class="text-left">
+								<li>Monitor proactivo.</li>
+								<li>Registros de eventos y aplicaciones.</li>
+								<li>Seguimiento robusto y de alerta.</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-side box-icon-color box-icon-round">
+							<div class="box-icon-title">
+								<i class="fa fa-cloud" aria-hidden="true"></i>
+								<h2>Monitoreo de Red</h2>
 							</div>
 							
 							<ul class="text-left">
-								<li>Descubrir, instalar y auditar los nuevos sistemas que entran en la red.</li>
-								<li>Registrar cualquier hardware, cambios de software o sistema.</li>
+								<li>Desde Windows, VMware, Linux, Cisco IOS y otros.</li>
+								<li>Se pueden controlar todos los dispositivos de la red.</li>
+								<li>Se pueden realizar consultas SQL.</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-side box-icon-color box-icon-round">
+							<div class="box-icon-title">
+								<i class="fa fa-terminal" aria-hidden="true"></i>
+								<h2>Control Remoto</h2>
+							</div>
+
+							<ul class="text-left">
+								<li>Una solución de control remoto completo.</li>
+								<li>Conexión instantánea incluso en redes de alta latencia.</li>
+								<li>Múltiples monitores en el punto final remoto.</li>
+							</ul>
+
+						</div>	
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-side box-icon-color box-icon-round">
+
+							<div class="box-icon-title">
+								<i class="fa fa-bug" aria-hidden="true"></i>
+								<h2>Administración de Parches</h2>
+							</div>
+
+							<ul class="text-left">
+								<li>Implementación automatizada.</li>
+								<li>Por tiempo, equipo, grupo o colecciones definidas por el usuario.</li>
+								<li>Despliegue de todos los parches a través de la red.</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="box-icon box-icon-side box-icon-color box-icon-round">
+							<div class="box-icon-title">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<h2>Auditoría de Red/Inventario</h2>
+							</div>
+							
+							<ul class="text-left">
+								<li>Escanear y auditar los sistemas de la red.</li>
+								<li>Registrar cualquier cambio de hardware y software.</li>
 								<li>Implementar plantillas de configuración del sistema y las normas.</li>
 							</ul>
 
@@ -391,62 +449,8 @@
 
 					<div class="col-md-4">
 
-						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
-							<div class="box-icon-title">
-								<i class="fa fa-cloud" aria-hidden="true"></i>
-								<h2>Monitoreo de Red</h2>
-							</div>
-							
-							<ul class="text-left">
-								<li>Monitoreo desde Windows, VMware, Linux, Cisco IOS y otros.</li>
-								<li>Se puede utilizar para controlar todos los aspectos de los dispositivos conectados a la red.</li>
-								<li>Se puede realizar una consulta SQL.</li>
-							</ul>
+						<div class="box-icon box-icon-side box-icon-color box-icon-round">
 
-						</div>
-
-					</div>
-
-					<div class="col-md-4">
-
-						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
-							<div class="box-icon-title">
-								<i class="fa fa-terminal" aria-hidden="true"></i>
-								<h2>Control Remoto</h2>
-							</div>
-
-							<ul class="text-left">
-								<li>Una solución de control remoto completo.</li>
-								<li>Conexión instantánea con extraordinaria fiabilidad, incluso a través de redes de alta latencia.</li>
-								<li>Soporta múltiples monitores en el punto final remoto.</li>
-							</ul>
-
-						</div>	
-
-					</div>
-
-					<div class="col-md-4">
-
-						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
-							<div class="box-icon-title">
-								<i class="fa fa-eye-slash" aria-hidden="true"></i>
-								<h2>Supervisión y Gestión Remota</h2>
-							</div>
-
-							<ul class="text-left">
-								<li>Monitorización proactiva de servidores.</li>
-								<li>Estaciones de trabajo.</li>
-								<li>Registros de eventos y aplicaciones</li>
-								<li>Seguimiento robusto y de alerta para las máquinas administradas</li>
-							</ul>
-
-						</div>
-
-					</div>
-
-					<div class="col-md-4">
-
-						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
 							<div class="box-icon-title">
 								<i class="fa fa-shield" aria-hidden="true"></i>
 								<h2>Antivirus y Gestión de Seguridad</h2>
@@ -457,25 +461,7 @@
 								<li>Configuración de Perfiles.</li>
 								<li>Gestión de Licencias.</li>
 								<li>Conjunto de Columnas.</li>
-							</ul>
-
-						</div>
-
-					</div>
-
-					<div class="col-md-4">
-
-						<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large box-icon-content">
-							<div class="box-icon-title">
-								<i class="fa fa-bug" aria-hidden="true"></i>
-								<h2>Administración de Parches</h2>
-							</div>
-
-							<ul class="text-left">
-								<li>Implementación automatizada de parches.</li>
-								<li>Horario por el tiempo, equipo, grupo o colecciones definidas por el usuario.</li>
-								<li>Despliegue de todos los parches necesarios a través de máquinas.</li>
-							</ul>
+							</ul>							
 
 						</div>
 
@@ -852,4 +838,192 @@
 						</div>
 
 				</section>
+
+
+
+
+<section id="contacto" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/1200x800/ingeniero.jpg');">
+	<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
+
+	<div class="container">
+
+		<div class="text-center">
+
+			<h3 style="font-size: 30px">Contáctanos <span>Estamos para ti</span></h3>
+				<strong style="font-size: 20px">Envíanos tus Preguntas y Comentarios</strong>
+		</div>
+
+	</div>
+
+</section>
+
+
+<section>
+				<div class="container">		
+
+
+							<div class="text-center">
+								<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Tenemos la Mejor Solución</h1>
+								<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Para tu Empresa</p>						
+							</div>
+
+					<div class="row">
+
+						<!-- FORM -->
+						<div class="col-md-8 col-sm-8">
+			
+                    			@if(Session::has('message'))
+					            
+									<div id="mensaje-enviado" class="alert alert-success" role="alert">
+									  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									  <span aria-hidden="true">&times;</span></button>
+									  <strong><i class="fa fa-check"></i></strong> {{Session::get('message')}}
+									</div>
+
+								@endif  							
+
+							{!! Form::open(['route' => 'enviar', 'method'=>'PUT', 'id' => 'demo-form', 'enctype'=>'multipart/form-data', 'class' => '', 'onKeypress' => 'if(event.keyCode == 13) event.returnValue = false']) !!} 
+
+								<fieldset>
+									<input type="hidden" name="action" value="contact_send" />
+
+									<div class="row">
+										<div class="form-group">
+											<div class="col-md-4">
+												<label for="name">Nombre y Apellido *</label>
+												<input required type="text" value="" class="form-control" name="name" id="name">
+											</div>
+											<div class="col-md-4">
+												<label for="email">Correo Electrónico *</label>
+												<input required type="email" value="" class="form-control" name="email" id="email">
+											</div>
+											<div class="col-md-4">
+												<label for="phone">Teléfono</label>
+												<input type="text" value="" class="form-control" name="phone" id="phone">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group">
+
+											<div class="col-md-4">
+												<label for="cargo">Cargo</label>
+												<select class="form-control pointer" id="cargo" name="cargo" onchange="showfield(this.options[this.selectedIndex].value)">
+													<option value="">--- Seleccione ---</option>
+													<option value="Director">Director</option>
+													<option value="Gerente">Gerente</option>
+													<option value="otros">Otros</option>
+												</select>
+												<div id="div1"></div>
+											</div>
+											<div class="col-md-4">
+													<label for="sector">Sector Industrial</label>
+													<select class="form-control pointer" id="sector" name="sector" onchange="showfield2(this.options[this.selectedIndex].value)">
+														<option value="">--- Seleccione ---</option>
+														<option value="Salud">Salud</option>
+														<option value="Medios de Comunicación">Medios de Comunicación</option>
+														<option value="Deportes">Deportes</option>
+														<option value="Tecnología">Tecnología</option>
+														<option value="Educación">Educación</option>
+														<option value="Comercio">Comercio</option>
+														<option value="Transporte y Comunicaciones">Transporte y Comunicaciones</option>
+														<option value="Turismo">Turismo</option>
+														<option value="Banca/Finanzas">Banca/Finanzas</option>
+														<option value="Seguros">Seguros</option>
+														<option value="Administración Pública">Administración Pública</option>
+														<option value="Marketing">Marketing</option>
+														<option value="Capital Humano">Capital Humano</option>
+														<option value="otros">Otros</option>
+													</select>
+													<div id="div2"></div>
+												</div>											
+											<div class="col-md-4">
+													<label for="contact_asunto">Asunto</label>
+													<select class="form-control pointer" id="asunto" name="asunto">
+														<option value="">--- Seleccione ---</option>
+														<option value="Comentarios">Comentarios</option>
+														<option value="Sugerencias">Sugerencias</option>
+														<option value="otros">Otros</option>
+													</select>
+												</div>											
+											</div>
+									</div>
+									<div class="row">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label for="message">Mensaje *</label>
+												<textarea required maxlength="10000" rows="8" class="form-control" name="message" id="message"></textarea>
+											</div>
+										</div>
+									</div>
+
+								</fieldset>
+
+								<div class="row">
+									<div class="col-md-12">
+										{!! Form::submit('Enviar',['class' => 'btn btn-primary']) !!}
+									</div>
+								</div>
+							{!! Form::close() !!}
+
+						</div>
+						<!-- /FORM -->
+
+						<!-- INFO -->
+						<div class="col-md-4 col-sm-4">
+
+							<h2><strong style="color: #F47741"><em>¡Visítanos!</em></strong></h2>
+
+							<!-- 
+							Available heights
+								height-100
+								height-150
+								height-200
+								height-250
+								height-300
+								height-350
+								height-400
+								height-450
+								height-500
+								height-550
+								height-600
+							-->
+							<div id="map2" class="height-200 grayscale"></div>
+
+							<hr />
+
+							<p>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental Universidad Metropolitana. Edif. 1. P1. Oficina AXIONTI, (B&G). Caracas, Edo. Miranda.</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:"></a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:ventas@axionti.com">ventas@axionti.com</a></span>
+							</p>
+
+						</div>
+						<!-- /INFO -->
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
+
+<script type="text/javascript">
+function showfield(name){
+  if(name=='otros')
+  	document.getElementById('div1').innerHTML='<label for="otroCargo">Indique</label><input type="text" class="form-control pointer" name="otroCargo" />';
+
+  else document.getElementById('div1').innerHTML='';
+}
+
+function showfield2(name){
+  if(name=='otros')
+  	document.getElementById('div2').innerHTML='<label for="otroSector">Indique</label><input type="text" class="form-control pointer" name="otroSector" />';
+
+  else document.getElementById('div2').innerHTML='';
+}
+</script>
+
+
+
+
 @endsection
