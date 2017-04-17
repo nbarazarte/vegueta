@@ -5212,7 +5212,7 @@ section.alternate .box-icon.box-icon-content .box-icon-title>i {
 /* box icon side */
 .box-icon.box-icon-side {
 	position:relative;
-	padding-left: 70px;
+	/*padding-left: 70px;*/
 }
 .box-icon.box-icon-side>i {
 	position:absolute;

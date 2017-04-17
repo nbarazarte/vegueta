@@ -384,7 +384,7 @@
 							
 							<ul class="text-left">
 								<li>Desde Windows, VMware, Linux, Cisco IOS y otros.</li>
-								<li>Se pueden controlar todos los dispositivos de la red.</li>
+								<li>Se pueden controlar los dispositivos de la red.</li>
 								<li>Se pueden realizar consultas SQL.</li>
 							</ul>
 
@@ -899,7 +899,7 @@
 											</div>
 											<div class="col-md-4">
 												<label for="phone">Teléfono</label>
-												<input type="text" value="" class="form-control" name="phone" id="phone">
+												<input type="text" class="form-control masked" data-format="(999) 999-99-99" data-placeholder="X" placeholder="" name="phone" id="phone">
 											</div>
 										</div>
 									</div>

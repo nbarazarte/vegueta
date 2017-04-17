@@ -118,89 +118,7 @@
 
 			@yield('content')
 
-<footer id="footer" >
-				<div class="container" >
-
-					<div class="row" style="text-align: center;">
-						
-						<div class="col-md-3">
-							<!-- Footer Logo -->
-							
-							<img src="{{ asset('smarty/assets/images/top.png') }}" alt="logo axionti" title="www.axionti.com" />	
-
-						</div>
-
-						<div class="col-md-3">
-
-							<!-- Links -->
-							<h4 class="letter-spacing-1">Descubre más</h4>
-							<ul class="footer-links list-unstyled">
-								<li>
-
-									<a class="lightbox" href="smarty/ajax/newsletter.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>Suscribete a nuestro Newsletter</a>
-
-								</li>
-
-							</ul>
-							<!-- /Links -->
-									
-
-									<a href="https://www.facebook.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
-										<i class="fa fa-facebook"></i>
-										<i class="fa fa-facebook"></i>
-									</a>
-
-									<a href="https://twitter.com/ilernus" target="_blank" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
-										<i class="fa fa-twitter"></i>
-										<i class="fa fa-twitter"></i>
-									</a>
-
-									<a href="https://www.instagram.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-instagram" style="background-color: #bc2a8d" data-toggle="tooltip" data-placement="top" title="Instagram">
-										<i class="fa fa-instagram" aria-hidden="true"></i>
-										<i class="fa fa-instagram" aria-hidden="true"></i>
-									</a>
-
-									<a href="https://www.linkedin.com/company/ilernus" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
-										<i class="fa fa-linkedin"></i>
-										<i class="fa fa-linkedin"></i>
-									</a>
-
-						</div>
-
-						<div class="col-md-3">
-							<!-- Links -->
-							<h4 class="letter-spacing-1">Soporte</h4>
-							<ul class="footer-links list-unstyled">
-								<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>
-								<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
-								<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>
-
-							</ul>
-							<!-- /Links -->
-						</div>
-
-						<div class="col-md-3">
-							
-							<a href="http://www.monitorbg.com" target="_blank">
-							<img src="{{ asset('smarty/assets/images/bg.png') }}" alt="logo bg" title="www.monitorbg.com"/>	
-					
-							</a>
-						</div>
-
-
-					</div>
-
-				</div>
-
-				<div class="copyright">
-					<div class="container">
-						<ul class="pull-right nomargin list-inline mobile-block">
-							<li><a href="http://www.monitorbg.com" target="_blank">Desarrollado por: B&G Technologies S.A. J-405498633</a></li>
-						</ul>
-						&copy; 2017 AXIONTI. Todos los derechos reservados.
-					</div>
-				</div>
-			</footer>
+			@include('footer')
 
 		</div>
 		<!-- /wrapper -->
@@ -227,8 +145,6 @@
 		{!! Html::script('smarty/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js') !!}
 
 		{!! Html::script('smarty/assets/js/view/demo.revolution_slider.js') !!}
-
-
 
 
 		@if(Route::current()->getName() == 'home')
@@ -263,6 +179,7 @@
 
 			</script>
 			@endif
+
 	</body>
 
 </html>
