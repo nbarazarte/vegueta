@@ -9,7 +9,7 @@
 						</button>
 
 						<!-- Logo -->
-						<a class="logo pull-left" href="index.html">							
+						<a class="logo pull-left" href="{{ route('home')}}">							
 							<img src="{{ asset('smarty/assets/images/top2.png') }}" alt="logo axionti" title="axionti" />		
 						</a>
 
