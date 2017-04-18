@@ -10,7 +10,7 @@
 								<li>
 
 									<a href="http://www.axionti.com" target="">
-										<img src="{{ asset('smarty/assets/images/top.png') }}" alt="logo axionti" title="www.axionti.com" />	
+										<img class="img-responsive" src="{{ asset('smarty/assets/images/top2.png') }}" alt="logo axionti" title="www.axionti.com" style="width: 100%" />	
 									</a>
 
 								</li>
@@ -22,7 +22,18 @@
 						</div>
 
 						<div class="col-md-3">
+							<!-- Links -->
+							<h4 class="letter-spacing-1">Soporte</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>
+								<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
+								<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>
 
+							</ul>
+							<!-- /Links -->
+						</div>
+
+						<div class="col-md-3">
 							<!-- Links -->
 							<h4 class="letter-spacing-1">Newsletter</h4>
 
@@ -40,20 +51,6 @@
 									
 								</form>
 
-
-							<!-- /Links -->
-									
-						</div>
-
-						<div class="col-md-3">
-							<!-- Links -->
-							<h4 class="letter-spacing-1">Soporte</h4>
-							<ul class="footer-links list-unstyled">
-								<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>
-								<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
-								<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>
-
-							</ul>
 							<!-- /Links -->
 						</div>
 
@@ -63,12 +60,12 @@
 								<li>
 
 									<a href="http://www.monitorbg.com" target="_blank">
-										<img src="{{ asset('smarty/assets/images/bg.png') }}" alt="logo bg" title="www.monitorbg.com"/>	
+										<img class="img-responsive" src="{{ asset('smarty/assets/images/bg.png') }}" alt="logo bg" title="www.monitorbg.com" style="width: 100%" />	
 									</a>
 
 								</li>
 
-								<li>Desarrollado por: B&G Technologies S.A. J-405498633</li>
+								<li>Desarrollado por B&G  S.A. J-405498633</li>
 								
 							</ul>
 

@@ -10,7 +10,7 @@
 
 						<!-- Logo -->
 						<a class="logo pull-left" href="{{ route('home')}}">							
-							<img src="{{ asset('smarty/assets/images/top2.png') }}" alt="logo axionti" title="axionti" />		
+							<img clas="img-responsive" src="{{ asset('smarty/assets/images/top2.png') }}" alt="logo axionti" title="axionti" />		
 						</a>
 
 						<!-- 
