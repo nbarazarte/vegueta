@@ -5224,7 +5224,7 @@ section.alternate .box-icon.box-icon-content .box-icon-title>i {
 
 /* Box Video */
 .box-video {
-	border:rgba(0,0,0,0.1) 1px solid;
+	border:rgba(0,0,0,0.1) 0px solid;
 	margin:30px 0;
 
 	border-radius: 3px;

@@ -2,50 +2,67 @@
 
 @section('content')
 
-			<!-- -->
-			<section>
 
+
+			<!-- Info -->
+			<section><!-- <section style="background-color: #F7F3F3"> -->
 				<div class="container">
-					
+
+					<div class="row">
+
 					<div class="heading-title heading-dotted text-center">
 
-						<h1> Grupo <span> AXIONTI</span></h1>
+						<h1>  <span> AXIONTI</span></h1>
 
 					</div>
 
-					<div class="row">
-					
-							<img class="pull-right img-responsive wow fadeIn thumbnail" src="smarty/assets/images/lideres.jpg" alt="" data-wow-delay="0.4s">
+						<div class="col-md-6 col-sm-6">
+							<img class="pull-right img-responsive" data-wow-delay="0.6s" src="smarty/assets/images/lideres.png" alt="">
+						</div>
 
-							<p style="text-align: justify;font-size: 18px">
-								Contamos con más de 12 años de experiencia en el área de tecnología de la información brindando: <span style="color: orange">soporte, excelencia y soluciones innovadoras</span> que permiten la continuidad operativa y eficiencia de nuestros clientes, es por ello qué, en Venezuela, seguimos conquistando el mercado a través de nuestro talento humano altamente capacitado que contribuirán en ofrecerles el mejor servicio.								
-							</p>
+						<div class="col-md-6 col-sm-6">
+							<header class="margin-bottom-60">
+								<h2>Prevención con desarrollo tecnológico</h2>
+								
+							</header>
+
+							<p style="text-align: justify;font-size: 18px" class="">Contamos con más de 12 años de experiencia en el área de tecnología de la información brindando: soporte, excelencia y soluciones innovadoras que permiten la continuidad operativa y eficiencia de nuestros clientes, es por ello qué, en Venezuela, seguimos conquistando el mercado a través de nuestro talento humano altamente capacitado que contribuirán en ofrecerles el mejor servicio.</p>
+
+
+
+						</div>
 
 					</div>
-					
-					<hr>
+				
 
 					<div class="row">
 
-						<div class="col-md-8">
+						<div class="col-md-4">
 							<h3 class="size-25">¿Porque elegir nuestras soluciones?</h3>
 
-								<p style="font-size: 18px">
-									Porque la tecnología es la clave para el desarrollo de su organización, es por ello que nos comprometemos en con ustedes generando valor a través de:
-								</p>
-
 							<ul class="list-unstyled" style="font-size: 18px">
-								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Soluciones integradas.</li>
-								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Canales de distribución.</li>
-								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Calidad Garantizada.</li>
-								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Personal calificado.</li>
-								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Soporte al alcance de un click.</li>
-								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Sólida infraestructura.</li>
+								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Experiencia: hemos atendido con éxito mas de 85.000 incidentes.</li>
+								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Kaseya: somos pioneros y los únicos representantes en Venezuela.</li>
+								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Talento Humano: Disponemos de ingenieros cualificados y certificados.</li>
+								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Infraestructura: contamos con infraestructura física y robusta.</li>
+								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Trayectoria: poseemos mas de 10 años de experiencia en tecnología.</li>
+								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Especialistas: en las industrias de turismo, servicio, industrial, retail, ingeniería, y contrucción tecnológica, manufactura y laboratorio.</li>
+								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Conexión: capacidad de brindar soporte remoto y en tiempo real de forma segura.</li>
 							</ul>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-5">
+
+						<img class="pull-right img-responsive" data-wow-delay="0.6s" src="smarty/assets/images/ofrecemos2.png" alt="" >
+							
+						</div>
+
+
+						<div class="col-md-3">
 							<h3 class="size-25">¿Qué ofrecemos?</h3>
+								<p style="font-size: 18px">
+									Porque la tecnología es la clave para el desarrollo de su organización, es por ello que nos comprometemos en con ustedes generando valor a través de:
+								</p>
 							<ul class="list-unstyled" style="font-size: 18px">
 								<li><i class="fa fa-check-circle-o" style="color: orange"></i> Outsourcing TI.</li>
 								<li><i class="fa fa-check-circle-o" style="color: orange"></i> KASEYA VSA.</li>
@@ -56,15 +73,18 @@
 
 					</div>
 
+
+			
+
 				<div class="container text-center">
 
 					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Su empresa obtendrá un servicio profesional</h1>
-					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Que lo lleve de la mano en el camino de la tecnología.</p>
+					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s" style="color: #20A778; font-weight: bold;">Que lo lleve de la mano en el camino de la tecnología.</p>
 					
 					<div class="row margin-top-100 text-left">
 
 						<div class="col-md-8" align="center">
-							<img class="img-responsive wow fadeIn thumbnail" src="smarty/assets/images/slide2-datacenter.jpg" alt="product image" />
+							<img class="img-responsive" src="smarty/assets/images/slide2-datacenter.png" alt="product image" />
 						</div>
 
 						<div class="col-md-4">
@@ -91,6 +111,11 @@
 					</div>
 				</div>
 
+
+
+
+
+
 					<div class="heading-title heading-dotted text-center">
 
 						<h1> Soluciones <span> AXIONTI</span></h1>
@@ -98,6 +123,10 @@
 					</div>
 
 					<div class="row">
+
+						<p style="text-align: justify;font-size: 18px">
+							Soluciones verticales especialmente creadas para ofrecer servicios flexibles y adaptados a las necesidades tecnológicas de nuestros clientes. Apoyandonos en las bondades de nuestra olataforma (KASEYA <i class="fa fa-registered" aria-hidden="true"></i>), experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confiabilidad y satisfacción.
+						</p>
 					
 						<div class="col-md-3">
 							
@@ -105,15 +134,21 @@
 								<h3> <i class="fa fa-desktop" aria-hidden="true"></i> Axion Desk</h3>
 							</div>
 
-							<div class="box-video text-center">
+							<div class="box-video ">
 
 								<div class="embed-responsive embed-responsive-16by9">
 									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
 								</div>
 
-								<p>
-									<strong>Atencion preventiva y correctiva de incidentes y requerimientos.</strong>
-								</p>
+									<p>
+										<ul class="list-unstyled list-icons">
+											<li><i class="fa fa-check-circle-o" style="color: orange"></i> Atención cuando y donde sea.</li>
+											<li><i class="fa fa-check-circle-o" style="color: orange"></i> Gestión bajo SLA Practicas de ITIL.</li>
+											<li><i class="fa fa-check-circle-o" style="color: orange"></i> Escalabilidad interna Automatizada.</li>
+											<li><i class="fa fa-check-circle-o" style="color: orange"></i> Inversión por incidente atendido.</li>
+																		
+										</ul>
+									</p>
 														
 							</div>							
 
@@ -124,14 +159,21 @@
 								<h3> <i class="fa fa-eye" aria-hidden="true"></i> Axion Monitor</h3>
 							</div>
 
-							<div class="box-video text-center">
+							<div class="box-video">
 
 								<div class="embed-responsive embed-responsive-16by9">
 									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
 								</div>
 
 								<p>
-									<strong>Monitore preventivo de la infraestructura tecnológica 24 x 7.</strong>
+									<ul class="list-unstyled list-icons">
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Mantenimiento preventivo 24x7.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Generación de alertas 24x7</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Monitor Tecnolóico.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Conocimiento total de sus activos de TI en tiempo real.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Distribución y actualización de software.</li>
+																	
+									</ul>
 								</p>
 														
 							</div>
@@ -143,14 +185,21 @@
 								<h3> <i class="fa fa-hdd-o" aria-hidden="true"></i> Axion Backup</h3>
 							</div>
 
-							<div class="box-video text-center">
+							<div class="box-video">
 
 								<div class="embed-responsive embed-responsive-16by9">
 									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
 								</div>
 
 								<p>
-									<strong>Respaldo y recuperación sistematizados de equipos.</strong>
+									<ul class="list-unstyled list-icons">
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Resguardo permanente.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Flexibilidad de Frecuencia.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Recuperación segura y encriptado.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Generación de alarmas automáticas.</li>
+										
+																	
+									</ul>
 								</p>
 														
 							</div>
@@ -163,14 +212,21 @@
 							</div>
 
 
-							<div class="box-video text-center">
+							<div class="box-video">
 
 								<div class="embed-responsive embed-responsive-16by9">
 									<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
 								</div>
 
+
 								<p>
-									<strong>Prevención por amenazas de seguridad y virus.</strong>
+									<ul class="list-unstyled list-icons">
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Instalación y administración de Fireware.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Accesos y denegaciones.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Restricción de aplicaciones.</li>
+										<li><i class="fa fa-check-circle-o" style="color: orange"></i> Administración centralizada de antivirus.</li>
+																	
+									</ul>
 								</p>
 														
 							</div>
@@ -185,31 +241,181 @@
 
 					</div>
 				
-					<div class="row">
+				
 
-						<div class="col-md-3">
 
-							<div class="box-static box-border-top">
-								<div class="box-title">
-									<h4>Nuestro Equipo</h4>
-								</div>
 
-								<p>
-									<small>
-										En <span style="color: orange">AXIONTI</span>  apostamos por el talento humano como la base para el éxito y la consecución de nuestros objetivos. Por eso contamos con el apoyo y la colaboración de profesionales del área de Tecnología de la Información, Administración y Finanzas, Recursos Humanos, Relaciones Industriales y Desarrollo Organizacional, para  cumplir a cabalidad con nuestro compromiso.									
-									</small>
-								</p>
-							</div>
 
-						</div>
 
-						<div class="col-md-9">
+<div class="row">
 
-							@include('equipoAxion')						
+	<div class="col-md-5th">
 
-						</div>
+		<div class="box-static box-border-top">
+			<div class="box-title">
+				<h4>Nuestro Equipo</h4>
+			</div>
+			<p>
+				<small>
+					En <span style="color: orange">AXIONTI</span>  apostamos por el talento humano como la base para el éxito y la consecución de nuestros objetivos. Por eso contamos con el apoyo y la colaboración de profesionales del área de Tecnología de la Información, Administración y Finanzas, Recursos Humanos, Relaciones Industriales y Desarrollo Organizacional, para  cumplir a cabalidad con nuestro compromiso.									
+				</small>
+			</p>
+		</div>
 
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-danger">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/600x400/16-min.jpg" alt="" />
+						<h2>Clover Brito</h2>
 					</div>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2 box-danger">
+
+					<p>Cuenta con 16 años de experiencia en Finanzas, Tecnología y Dirección de Negocios a nivel nacional e internacional.</p>
+					<a style="color: #FFFFFF" class="lightbox" href="smarty/ajax/clover.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+					Leer
+						<!-- /word rotator -->
+						<span class="word-rotator" data-delay="2000">
+							<span class="items">
+								<span>más</span>
+								<span>ahora</span>
+							</span>
+						</span><!-- /word rotator -->
+						<i class="glyphicon glyphicon-menu-right size-12"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-danger">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/600x400/19-min.jpg" alt="" />
+						<h2>Nailis Blandin</h2>
+					</div>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2 box-danger">
+					<p>Nailis posee más de 10 años de experiencia en el Liderazgo de Servicios de Tecnologías de la Información.</p>
+					<a style="color: #FFFFFF" class="lightbox" href="smarty/ajax/nailis.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+					Leer
+						<!-- /word rotator -->
+						<span class="word-rotator" data-delay="2000">
+							<span class="items">
+								<span>más</span>
+								<span>ahora</span>
+							</span>
+						</span><!-- /word rotator -->
+						<i class="glyphicon glyphicon-menu-right size-12"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-danger">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/600x400/31-min.jpg" alt="" />
+						<h2>Jonnatan ???</h2>
+					</div>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2 box-danger">
+					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+					<a style="color: #FFFFFF" class="lightbox" href="smarty/ajax/nailis.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+					Leer
+						<!-- /word rotator -->
+						<span class="word-rotator" data-delay="2000">
+							<span class="items">
+								<span>más</span>
+								<span>ahora</span>
+							</span>
+						</span><!-- /word rotator -->
+						<i class="glyphicon glyphicon-menu-right size-12"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-danger">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/600x400/31-min.jpg" alt="" />
+						<h2>Edwin ???</h2>
+					</div>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2 box-danger">
+					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+					<a style="color: #FFFFFF" class="lightbox" href="smarty/ajax/nailis.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+					Leer
+						<!-- /word rotator -->
+						<span class="word-rotator" data-delay="2000">
+							<span class="items">
+								<span>más</span>
+								<span>ahora</span>
+							</span>
+						</span><!-- /word rotator -->
+						<i class="glyphicon glyphicon-menu-right size-12"></i>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+	</div>	
+
+</div>
+
+
+
+</div>
+</section>
+
+
+
+
+<section>
+<div class="container">
+
+
+
+
+
+			
 
 					<div class="heading-title heading-dotted text-center">
 
@@ -284,8 +490,11 @@
 							</ul>
 
 						</div>
+
 					</div>
 				</div>
+
+			</section>
 
 <section id="comercializacion" class="heading-title parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/servidores.jpeg');">
 	<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
@@ -307,7 +516,7 @@
 				<div class="container text-center">
 
 					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Todo en Equipamiento</h1>
-					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Que Garantizará la Continuidad Operativa de su Organización.</p>
+					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s" style="color: #20A778; font-weight: bold;">Que Garantizará la Continuidad Operativa de su Organización.</p>
 
 					<div class="heading-title heading-dotted text-center">
 
@@ -486,6 +695,304 @@
 					<h1> Hardware <span> </span></h1>
 
 				</div>
+
+
+
+
+<!-- RECOMMENDED -->
+			<section>
+				<div class="container">
+
+					<h2 class="owl-featured"><strong>Recommended</strong> for you:</h2>
+					<div class="owl-carousel featured nomargin owl-padding-10" data-plugin-options='{"singleItem": false, "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": true, "pagination": false}'>
+
+						<!-- item -->
+						<div class="shop-item nomargin">
+
+							<div class="thumbnail">
+								<!-- product image(s) -->
+								<a class="shop-item-image" href="shop-single-left.html">
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p13.jpg" alt="shop first image" />
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p14.jpg" alt="shop hover image" />
+								</a>
+								<!-- /product image(s) -->
+
+								<!-- product more info -->
+								<div class="shop-item-info">
+									<span class="label label-success">NEW</span>
+									<span class="label label-danger">SALE</span>
+								</div>
+								<!-- /product more info -->
+							</div>
+							
+							<div class="shop-item-summary text-center">
+								<h2>Cotton 100% - Pink Shirt</h2>
+								
+								<!-- rating -->
+								<div class="shop-item-rating-line">
+									<div class="rating rating-4 size-13"><!-- rating-0 ... rating-5 --></div>
+								</div>
+								<!-- /rating -->
+
+								<!-- price -->
+								<div class="shop-item-price">
+									<span class="line-through">$98.00</span>
+									$78.00
+								</div>
+								<!-- /price -->
+							</div>
+
+								<!-- buttons -->
+								<div class="shop-item-buttons text-center">
+									<a class="btn btn-default" href="shop-cart.html"><i class="fa fa-cart-plus"></i> Add to Cart</a>
+								</div>
+								<!-- /buttons -->
+						</div>
+						<!-- /item -->
+
+						<!-- item -->
+						<div class="shop-item nomargin">
+
+							<div class="thumbnail">
+								<!-- product image(s) -->
+								<a class="shop-item-image" href="shop-single-left.html">
+									<!-- CAROUSEL -->
+									<div class="owl-carousel owl-padding-0 nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 3000, "navigation": false, "pagination": false, "transitionStyle":"fadeUp"}'>
+										<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p5.jpg" alt="">
+										<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p1.jpg" alt="">
+									</div>
+									<!-- /CAROUSEL -->
+								</a>
+								<!-- /product image(s) -->
+							</div>
+							
+							<div class="shop-item-summary text-center">
+								<h2>Pink Dress 100% Cotton</h2>
+								
+								<!-- rating -->
+								<div class="shop-item-rating-line">
+									<div class="rating rating-4 size-13"><!-- rating-0 ... rating-5 --></div>
+								</div>
+								<!-- /rating -->
+
+								<!-- price -->
+								<div class="shop-item-price">
+									$44.00
+								</div>
+								<!-- /price -->
+							</div>
+
+								<!-- buttons -->
+								<div class="shop-item-buttons text-center">
+									<a class="btn btn-default" href="shop-cart.html"><i class="fa fa-cart-plus"></i> Add to Cart</a>
+								</div>
+								<!-- /buttons -->
+						</div>
+						<!-- /item -->
+
+						<!-- item -->
+						<div class="shop-item nomargin">
+
+							<div class="thumbnail">
+								<!-- product image(s) -->
+								<a class="shop-item-image" href="shop-single-left.html">
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p2.jpg" alt="shop first image" />
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p12.jpg" alt="shop hover image" />
+								</a>
+								<!-- /product image(s) -->
+
+								<!-- product more info -->
+								<div class="shop-item-info">
+									<span class="label label-success">NEW</span>
+									<span class="label label-danger">SALE</span>
+								</div>
+								<!-- /product more info -->
+							</div>
+							
+							<div class="shop-item-summary text-center">
+								<h2>Black Fashion Hat</h2>
+								
+								<!-- rating -->
+								<div class="shop-item-rating-line">
+									<div class="rating rating-4 size-13"><!-- rating-0 ... rating-5 --></div>
+								</div>
+								<!-- /rating -->
+
+								<!-- price -->
+								<div class="shop-item-price">
+									<span class="line-through">$77.00</span>
+									$65.00
+								</div>
+								<!-- /price -->
+							</div>
+
+								<!-- buttons -->
+								<div class="shop-item-buttons text-center">
+									<a class="btn btn-default" href="shop-cart.html"><i class="fa fa-cart-plus"></i> Add to Cart</a>
+								</div>
+								<!-- /buttons -->
+						</div>
+						<!-- /item -->
+
+						<!-- item -->
+						<div class="shop-item nomargin">
+
+							<div class="thumbnail">
+								<!-- product image(s) -->
+								<a class="shop-item-image" href="shop-single-left.html">
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p8.jpg" alt="shop first image" />
+								</a>
+								<!-- /product image(s) -->
+
+								<!-- countdown -->
+								<div class="shop-item-counter">
+									<div class="countdown" data-from="December 31, 2017 08:22:01" data-labels="years,months,weeks,days,hour,min,sec"><!-- Example Date From: December 31, 2018 15:03:26 --></div>
+								</div>
+								<!-- /countdown -->
+							</div>
+							
+							<div class="shop-item-summary text-center">
+								<h2>Beach Black Lady Suit</h2>
+								
+								<!-- rating -->
+								<div class="shop-item-rating-line">
+									<div class="rating rating-4 size-13"><!-- rating-0 ... rating-5 --></div>
+								</div>
+								<!-- /rating -->
+
+								<!-- price -->
+								<div class="shop-item-price">
+									$56.00
+								</div>
+								<!-- /price -->
+							</div>
+
+								<!-- buttons -->
+								<div class="shop-item-buttons text-center">
+									<a class="btn btn-default" href="shop-cart.html"><i class="fa fa-cart-plus"></i> Add to Cart</a>
+								</div>
+								<!-- /buttons -->
+						</div>
+						<!-- /item -->
+
+						<!-- item -->
+						<div class="shop-item nomargin">
+
+							<div class="thumbnail">
+								<!-- product image(s) -->
+								<a class="shop-item-image" href="shop-single-left.html">
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p7.jpg" alt="shop first image" />
+								</a>
+								<!-- /product image(s) -->
+							</div>
+							
+							<div class="shop-item-summary text-center">
+								<h2>Town Dress - Black</h2>
+								
+								<!-- rating -->
+								<div class="shop-item-rating-line">
+									<div class="rating rating-4 size-13"><!-- rating-0 ... rating-5 --></div>
+								</div>
+								<!-- /rating -->
+
+								<!-- price -->
+								<div class="shop-item-price">
+									$154.00
+								</div>
+								<!-- /price -->
+							</div>
+
+								<!-- buttons -->
+								<div class="shop-item-buttons text-center">
+									<a class="btn btn-default" href="shop-cart.html"><i class="fa fa-cart-plus"></i> Add to Cart</a>
+								</div>
+								<!-- /buttons -->
+						</div>
+						<!-- /item -->
+
+						<!-- item -->
+						<div class="shop-item nomargin">
+
+							<div class="thumbnail">
+								<!-- product image(s) -->
+								<a class="shop-item-image" href="shop-single-left.html">
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p6.jpg" alt="shop first image" />
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p14.jpg" alt="shop hover image" />
+								</a>
+								<!-- /product image(s) -->
+							</div>
+							
+							<div class="shop-item-summary text-center">
+								<h2>Chick Lady Fashion</h2>
+								
+								<!-- rating -->
+								<div class="shop-item-rating-line">
+									<div class="rating rating-4 size-13"><!-- rating-0 ... rating-5 --></div>
+								</div>
+								<!-- /rating -->
+
+								<!-- price -->
+								<div class="shop-item-price">
+									$167.00
+								</div>
+								<!-- /price -->
+							</div>
+
+								<!-- buttons -->
+								<div class="shop-item-buttons text-center">
+									<a class="btn btn-default" href="shop-cart.html"><i class="fa fa-cart-plus"></i> Add to Cart</a>
+								</div>
+								<!-- /buttons -->
+						</div>
+						<!-- /item -->
+
+						<!-- item -->
+						<div class="shop-item nomargin">
+
+							<div class="thumbnail">
+								<!-- product image(s) -->
+								<a class="shop-item-image" href="shop-single-left.html">
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p11.jpg" alt="shop hover image" />
+									<img class="img-responsive" src="smarty/assets/images/demo/shop/products/300x450/p3.jpg" alt="shop first image" />
+								</a>
+								<!-- /product image(s) -->
+							</div>
+							
+							<div class="shop-item-summary text-center">
+								<h2>Black Long Lady Shirt</h2>
+								
+								<!-- rating -->
+								<div class="shop-item-rating-line">
+									<div class="rating rating-0 size-13"><!-- rating-0 ... rating-5 --></div>
+								</div>
+								<!-- /rating -->
+
+								<!-- price -->
+								<div class="shop-item-price">
+									$128.00
+								</div>
+								<!-- /price -->
+							</div>
+
+								<!-- buttons -->
+								<div class="shop-item-buttons text-center">
+									<a class="btn btn-default" href="shop-cart.html"><i class="fa fa-cart-plus"></i> Add to Cart</a>
+								</div>
+								<!-- /buttons -->
+						</div>
+						<!-- /item -->
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /RECOMMENDED -->
+
+
+
+
+
+
 
 					
 				<div class="heading-title heading-dotted text-center">

@@ -25,7 +25,8 @@
 
 		<!-- PAGE LEVEL SCRIPTS -->
 		{!! Html::style('smarty/assets/css/header-1.css') !!}
-		{!! Html::style('smarty/assets/css/color_scheme/orange.css') !!}
+		<link href="smarty/assets/css/layout-shop.css" rel="stylesheet" type="text/css" />
+		{!! Html::style('smarty/assets/css/color_scheme/green.css') !!}
 
 		<!-- REVOLUTION SLIDER -->
 		{!! Html::style('smarty/assets/plugins/slider.revolution/css/extralayers.css') !!}
