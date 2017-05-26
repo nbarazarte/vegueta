@@ -16,7 +16,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('index');
+        //return view('smarty.index');
+        return view('porto.index');
     }
 
 
@@ -30,7 +31,7 @@ class HomeController extends Controller
     public function terminos()
     {
 
-        return \View::make('terminos');
+        return \View::make('smarty.terminos');
         
     }  
 
@@ -43,7 +44,7 @@ class HomeController extends Controller
     public function politicas()
     {
 
-        return \View::make('politicas');
+        return \View::make('smarty.politicas');
         
     }
 
@@ -55,7 +56,7 @@ class HomeController extends Controller
     public function faq()
     {
 
-        return \View::make('faq');
+        return \View::make('smarty.faq');
         
     }
 
@@ -67,7 +68,7 @@ class HomeController extends Controller
     public function mapa()
     {
 
-        return \View::make('mapa');
+        return \View::make('smarty.mapa');
         
     }
 
@@ -79,7 +80,7 @@ class HomeController extends Controller
     public function trabaja()
     {
 
-        return \View::make('trabaja');
+        return \View::make('smarty.trabaja');
         
     }  
     
