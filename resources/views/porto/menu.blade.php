@@ -35,78 +35,31 @@
 											<nav>
 												<ul class="nav nav-pills" id="mainNav">
 													
-
-
-
-												@if(Route::current()->getName() == 'home')
-
-													<li class="dropdown">
-														<a data-hash class="dropdown-toggle" href="#">
-															Inicio
+													<li>
+														<a href="{{ route('home')}}">
+															AXIONTI
 														</a>
-														<ul class="dropdown-menu">
-															<li><a data-hash data-hash-offset="70" href="#home">AXIONTI</a></li>
-															<li><a data-hash data-hash-offset="70" href="#porqueelegirnos">¿Por qué elegirnos?</a></li>
-															<li><a data-hash data-hash-offset="70" href="#equipo">Equipo AXIONTI</a></li>
-														</ul>
 													</li>
 
-												@else
-
 													<li class="dropdown">
-														<a data-hash class="dropdown-toggle" href="{{ route('home')}}">
-															Inicio
-														</a>
-														<ul class="dropdown-menu">
-															<li><a href="http://{{ $_SERVER['SERVER_NAME'] }}:8001/Inicio#home">AXIONTI</a></li>
-															<li><a href="http://{{ $_SERVER['SERVER_NAME'] }}:8001/Inicio#porqueelegirnos">¿Por qué elegirnos?</a></li>
-															<li><a href="http://{{ $_SERVER['SERVER_NAME'] }}:8001/Inicio#equipo">Equipo AXIONTI</a></li>
-														</ul>
-													</li>
-
-												@endif
-
-												@if(Route::current()->getName() == 'home')
-
-													<li class="dropdown">
-														<a data-hash class="dropdown-toggle" href="{{ route('soluciones')}}">
+														<a data-hash  class="dropdown-toggle" href="#">
 															Soluciones
 														</a>
 														<ul class="dropdown-menu">
-															<li><a href="http://{{ $_SERVER['SERVER_NAME'] }}:8001/Inicio/Soluciones#servicios">Servicios</a></li>
-															<li><a href="#">Proyectos</a></li>
-															<li><a href="#">Equipo AXIONTI</a></li>
+															<li><a href="{{ route('servicios')}}">Servicios</a></li>
+															<li><a href="{{ route('nuestrasSoluciones')}}">Nuestras Soluciones</a></li>
+															<li><a href="{{ route('proyectos')}}">Proyectos</a></li>
 														</ul>
 													</li>
 
-												@else
-
-													<li class="dropdown">
-														<a data-hash class="dropdown-toggle" href="{{ route('soluciones')}}">
-															Soluciones
-														</a>
-														<ul class="dropdown-menu">
-															<li><a data-hash data-hash-offset="70"  href="#servicios">Servicios</a></li>
-															<li><a data-hash data-hash-offset="70"  href="#nuestrassoluciones">Nuestras Soluciones</a></li>
-															<li><a data-hash data-hash-offset="70"  href="#proyectos">Proyectos</a></li>
-															
-														</ul>
-													</li>
-
-												@endif
-
-
-
-
-
 													<li>
-														<a data-hash data-hash-offset="70" href="#">Features</a>
+														<a href="{{ route('casosExito')}}">Casos de Éxito</a>
 													</li>
 													<li>
-														<a data-hash data-hash-offset="70" href="#">Meet the Team</a>
+														<a href="{{ route('trabaja')}}">Empleo AXIONTI</a>
 													</li>
 													<li>
-														<a data-hash data-hash-offset="70" href="#">Contact Us</a>
+														<a href="{{ route('contacto')}}">Contactanos</a>
 													</li>
 												</ul>
 											</nav>

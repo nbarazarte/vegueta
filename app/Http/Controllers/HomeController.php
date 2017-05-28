@@ -20,15 +20,61 @@ class HomeController extends Controller
         return view('porto.index');
     }
 
+
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function soluciones()
+    public function servicios()
     {
         //return view('smarty.index');
-        return view('porto.soluciones');
+        return view('porto.servicios');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function nuestrasSoluciones()
+    {
+        //return view('smarty.index');
+        return view('porto.nuestrasSoluciones');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function proyectos()
+    {
+        //return view('smarty.index');
+        return view('porto.proyectos');
+    }    
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function casos()
+    {
+        //return view('smarty.index');
+        return view('porto.casos');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contacto()
+    {
+        //return view('smarty.index');
+        return view('porto.contacto');
     }
 
 

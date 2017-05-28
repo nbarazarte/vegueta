@@ -11,19 +11,60 @@
 |
 */
 
-Route::get('/Inicio', [
+Route::get('/', [
 	'uses' => 'HomeController@index',
 	'as' =>'home'
 ]);
 
-Route::group(['prefix' => '/Inicio'], function () {
 
-	Route::get('Soluciones', [
-		'uses' => 'HomeController@soluciones',
-		'as' =>'soluciones'
+Route::group(['prefix' => '/Soluciones'], function () {
+
+	Route::get('Servicios', [
+		'uses' => 'HomeController@servicios',
+		'as' =>'servicios'
+	]);
+
+	Route::get('Nuestras-Soluciones', [
+		'uses' => 'HomeController@nuestrasSoluciones',
+		'as' =>'nuestrasSoluciones'
+	]);
+
+	Route::get('Proyectos', [
+		'uses' => 'HomeController@proyectos',
+		'as' =>'proyectos'
 	]);
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('/Trabaja-con-Nosotros', [
+	'uses' => 'HomeController@trabaja',
+	'as' =>'trabaja'
+]);	
+
+Route::get('/Casos-de-éxito', [
+	'uses' => 'HomeController@casos',
+	'as' =>'casosExito'
+]);	
+
+Route::get('/Contáctanos', [
+	'uses' => 'HomeController@contacto',
+	'as' =>'contacto'
+]);	
+
+
+
 
 Route::put('Enviando', [
 		'uses' => 'HomeController@enviar',
@@ -50,7 +91,3 @@ Route::get('/Mapa-del-Sitio', [
 	'as' =>'mapa'
 ]);
 
-Route::get('/Trabaja-con-Nosotros', [
-	'uses' => 'HomeController@trabaja',
-	'as' =>'trabaja'
-]);	
