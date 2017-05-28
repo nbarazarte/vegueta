@@ -1275,7 +1275,7 @@ ul.thumbnail-gallery li {
 }
 
 .list.list-icons li .fa, .list.list-icons li .icons {
-	position: absolute;
+	/*position: absolute;*/
 	left: 0;
 	top: 5px;
 }

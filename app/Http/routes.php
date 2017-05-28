@@ -11,10 +11,19 @@
 |
 */
 
-Route::get('/', [
+Route::get('/Inicio', [
 	'uses' => 'HomeController@index',
 	'as' =>'home'
 ]);
+
+Route::group(['prefix' => '/Inicio'], function () {
+
+	Route::get('Soluciones', [
+		'uses' => 'HomeController@soluciones',
+		'as' =>'soluciones'
+	]);
+
+});
 
 Route::put('Enviando', [
 		'uses' => 'HomeController@enviar',

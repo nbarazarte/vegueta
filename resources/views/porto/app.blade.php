@@ -6,11 +6,11 @@
 		<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Porto - Responsive HTML5 Template 4.3.1</title>	
+		<title>AXIONTI</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
 		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -23,6 +23,9 @@
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
 
 		<!-- Vendor CSS -->
+		{!! Html::style('porto/css/font-awesome/css/font-awesome.css') !!}
+		{!! Html::style('porto/css/font-kaseya/styles.css') !!}
+		
 		{!! Html::style('porto/vendor/bootstrap/css/bootstrap.css') !!}
 		{!! Html::style('porto/vendor/font-awesome/css/font-awesome.css') !!}
 		{!! Html::style('porto/vendor/simple-line-icons/css/simple-line-icons.css') !!}
@@ -51,11 +54,20 @@
 
 		<!-- Head Libs -->
 		{!! Html::script('porto/vendor/modernizr/modernizr.js') !!}
-
+		
 	</head>
+
 	<body class="one-page" data-target="#header" data-spy="scroll" data-offset="100">
 
-		@yield('content')
+		<div class="body">
+
+			@include('porto.menu')
+			
+				@yield('content')
+
+			@include('porto.footer')
+
+		</div>
 
 		<!-- Vendor -->
 		{!! Html::script('porto/vendor/jquery/jquery.js') !!}
@@ -103,6 +115,7 @@
 		 -->
 
 		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
 		<script>
 
 			/*
@@ -174,4 +187,5 @@
 		</script>
 
 	</body>
+
 </html>

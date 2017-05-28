@@ -20,7 +20,16 @@ class HomeController extends Controller
         return view('porto.index');
     }
 
-
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function soluciones()
+    {
+        //return view('smarty.index');
+        return view('porto.soluciones');
+    }
 
 
     /**
