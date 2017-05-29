@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
+use PHPMailer;
 
 class HomeController extends Controller
 {
@@ -141,23 +144,7 @@ class HomeController extends Controller
     
     public function enviar()
     {       
-        /*$message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Teléfono: ".$_POST['phone'];
-                
-        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-        $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-        $cabeceras .= "Content-Type: image/png";    
-        $cabeceras .= 'To: Neil Barazarte <ezebarazarte@gmail.com>' . "\r\n";
-        $cabeceras .= 'From: '.$_POST['name'].' <'.$_POST['email'].'>' . "\r\n";     
         
-        if (!mail('ezebarazarte@gmail.com', $_POST['asunto'].' - ilernus.com', $message, $cabeceras)) {
-            //echo "Error: " . $mail->ErrorInfo;
-            Session::flash('message','Error!, el mensaje no se pudo enviar');
-        } else {
-            Session::flash('message','Su mensaje fue enviado exitosamente!');
-        }
-
-        return Redirect::to('/#contacto');*/
-
         if($_POST['cargo'] != 'otros') {
 
             $cargo = $_POST['cargo'];
@@ -175,10 +162,29 @@ class HomeController extends Controller
         }else{
 
             $sector = $_POST['otroSector'];
-        }        
+        } 
 
-        $message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Cargo: ".$cargo."<br> Sector: ".$sector."<br> Teléfono: ".$_POST['phone']."<br> Correo Electrónico: ".$_POST['email'];
+       $message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Cargo: ".$cargo."<br> Sector: ".$sector."<br> Teléfono: ".$_POST['phone']."<br> Correo Electrónico: ".$_POST['email'];
 
+           
+        
+        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+        $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $cabeceras .= "Content-Type: image/png";    
+        $cabeceras .= 'To: ilernus <ventas@ilernus.com>' . "\r\n";
+        $cabeceras .= 'From: '.$_POST['name'].' <'.$_POST['email'].'>' . "\r\n";     
+        
+        if (!mail('ventas@ilernus.com', $_POST['asunto'].' - ilernus.com', $message, $cabeceras)) {
+            //echo "Error: " . $mail->ErrorInfo;
+            Session::flash('message','Error!, el mensaje no se pudo enviar');
+        } else {
+            Session::flash('message','Su mensaje fue enviado exitosamente!');
+        }
+
+
+
+    
+/*
         $mail = new PHPMailer;
         $mail->isSMTP();
         $mail->SMTPDebug = 0;
@@ -213,9 +219,12 @@ class HomeController extends Controller
             Session::flash('message','Su mensaje fue enviado exitosamente!');
         }
 
-        return Redirect::to('http://'.$_SERVER['SERVER_NAME'].'/Contáctanos#mensaje-enviado');
+*/
 
-    } 
+
+        return Redirect::to('http://'.$_SERVER['SERVER_NAME'].'/Contáctanos');
+
+    }  
 
     /**
      * Show the form for creating a new resource.

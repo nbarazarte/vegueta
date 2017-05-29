@@ -27,7 +27,7 @@
 						<div class="row">
 							<div class="col-md-1">
 								<a href="index.html" class="logo">
-									<img alt="Porto Website Template" class="img-responsive" src="porto/img/logo-footer.png">
+									<img alt="Porto Website Template" class="img-responsive" src="{{ asset('porto/img/logoaxionti.jpg')}}">
 								</a>
 							</div>
 							<div class="col-md-11">

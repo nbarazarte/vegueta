@@ -15,7 +15,7 @@
 								<div class="header-logo">
 									<a href="{{ route('home') }}">
 										
-										<img alt="logo axionti" title="AXIONTI" clas="img-responsive" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="{{ asset('smarty/assets/images/logoaxionti.jpg') }}">
+										<img alt="logo axionti" title="AXIONTI" clas="img-responsive" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="{{ asset('porto/img/logoaxionti.jpg') }}">
 										
 									</a>
 								</div>
@@ -59,7 +59,7 @@
 														<a href="{{ route('trabaja')}}">Empleo AXIONTI</a>
 													</li>
 													<li>
-														<a href="{{ route('contacto')}}">Contactanos</a>
+														<a href="{{ route('contacto')}}">Contáctanos</a>
 													</li>
 												</ul>
 											</nav>

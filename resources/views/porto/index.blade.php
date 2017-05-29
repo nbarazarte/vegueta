@@ -287,6 +287,29 @@
 
 			</section>
 
+
+				<div class="home-intro" id="home-intro">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-md-8">
+								<p>
+									Confíenos la gestión de la <em>tecnología</em>
+									<span>en su empresa y le garantizamos el aumento de su productividad</span>
+								</p>
+							</div>
+							<div class="col-md-4">
+								<div class="get-started">
+									<a href="{{ route('contacto')}}" class="btn btn-lg btn-primary">Contáctanos</a>
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
 			<section id="equipo">
 				<div class="container">
 					<div class="row mt-xlg">
