@@ -21,6 +21,9 @@
 				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 				<div id="googlemaps" class="google-map"></div>
 
+
+
+
 	<section id="">
 		<div class="container">
 
@@ -40,6 +43,18 @@
 							</div>
 
 							<h2 class="mb-sm mt-sm"><strong>Envíanos</strong> tus preguntas y comentarios.</h2>
+
+                    			@if(Session::has('message'))
+					            
+									<div id="mensaje-enviado" class="alert alert-success" role="alert">
+									  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									  <span aria-hidden="true">&times;</span></button>
+									  <strong><i class="fa fa-check"></i></strong> {{Session::get('message')}}
+									</div>
+
+								@endif  
+
+
 							{!! Form::open(['route' => 'enviar', 'method'=>'PUT', 'id' => '', 'enctype'=>'multipart/form-data', 'class' => '', 'onKeypress' => 'if(event.keyCode == 13) event.returnValue = false']) !!} 
 								<div class="row">
 									<div class="form-group">
@@ -99,7 +114,12 @@
 										</div>
 										<div class="col-md-6">
 											<label>Asunto</label>
-											<input type="text" value="" data-msg-required="Pór favor ingrese un motivo o asunto." maxlength="100" class="form-control" name="asunto" id="asunto" required>
+											<select required class="form-control pointer" id="asunto" name="asunto" data-msg-required="Pór favor selecione de la lista.">
+												<option value="">--- Seleccione ---</option>
+												<option value="Comentarios">Comentarios</option>
+												<option value="Sugerencias">Sugerencias</option>
+											</select>
+
 										</div>
 									</div>
 								</div>
@@ -115,7 +135,7 @@
 								<div class="row">
 									<div class="col-md-12">
 										
-										{!! Form::submit('Enviar',['class' => 'btn btn-primary btn-lg mb-xlg', 'value' => 'Enviar', 'data-loading-text' => 'Enviando']) !!}
+										{!! Form::submit('Enviar',['class' => 'btn btn-primary btn-lg mb-xlg', 'value' => 'Enviar', 'style' => 'background-color: #FFA500; border-style: solid; border-color: #FFA500' , 'data-loading-text' => 'Enviando']) !!}
 									</div>
 								</div>
 							{!! Form::close() !!}

@@ -167,7 +167,7 @@ class HomeController extends Controller
        $message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Cargo: ".$cargo."<br> Sector: ".$sector."<br> Teléfono: ".$_POST['phone']."<br> Correo Electrónico: ".$_POST['email'];
 
            
-        
+        /*
         $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
         $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
         $cabeceras .= "Content-Type: image/png";    
@@ -181,10 +181,8 @@ class HomeController extends Controller
             Session::flash('message','Su mensaje fue enviado exitosamente!');
         }
 
+        */
 
-
-    
-/*
         $mail = new PHPMailer;
         $mail->isSMTP();
         $mail->SMTPDebug = 0;
@@ -206,7 +204,7 @@ class HomeController extends Controller
         //$mail->addAddress("ventas@ilernus.com");
         $mail->addAddress("ezebarazarte@gmail.com");
         
-        $mail->Subject = "ilernus.com - ". $_POST['asunto'];
+        $mail->Subject = "axionti.com - ". $_POST['asunto'];
         //$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
         $mail->msgHTML($message);
         $mail->AltBody = 'Contactanos';
@@ -219,10 +217,8 @@ class HomeController extends Controller
             Session::flash('message','Su mensaje fue enviado exitosamente!');
         }
 
-*/
 
-
-        return Redirect::to('http://'.$_SERVER['SERVER_NAME'].'/Contáctanos');
+        return Redirect::to('http://'.$_SERVER['SERVER_NAME'].':8001/Contáctanos');
 
     }  
 

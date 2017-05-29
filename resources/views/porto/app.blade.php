@@ -114,7 +114,9 @@
 		</script>
 		 -->
 
-		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
+		<script src="http://maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>
 
 		<script>
 
@@ -129,24 +131,8 @@
 
 			// Map Markers
 			var mapMarkers = [{
-				address: "217 Summit Boulevard, Birmingham, AL 35243",
+				address: "Avenida Universidad Metropolitana, Caracas, Distrito Capital, Venezuela",
 				html: "<strong>Alabama Office</strong><br>217 Summit Boulevard, Birmingham, AL 35243<br><br><a href='#' onclick='mapCenterAt({latitude: 33.44792, longitude: -86.72963, zoom: 16}, event)'>[+] zoom here</a>",
-				icon: {
-					image: "img/pin.png",
-					iconsize: [26, 46],
-					iconanchor: [12, 46]
-				}
-			},{
-				address: "645 E. Shaw Avenue, Fresno, CA 93710",
-				html: "<strong>California Office</strong><br>645 E. Shaw Avenue, Fresno, CA 93710<br><br><a href='#' onclick='mapCenterAt({latitude: 36.80948, longitude: -119.77598, zoom: 16}, event)'>[+] zoom here</a>",
-				icon: {
-					image: "img/pin.png",
-					iconsize: [26, 46],
-					iconanchor: [12, 46]
-				}
-			},{
-				address: "New York, NY 10017",
-				html: "<strong>New York Office</strong><br>New York, NY 10017<br><br><a href='#' onclick='mapCenterAt({latitude: 40.75198, longitude: -73.96978, zoom: 16}, event)'>[+] zoom here</a>",
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -155,8 +141,11 @@
 			}];
 
 			// Map Initial Location
-			var initLatitude = 37.09024;
-			var initLongitude = -95.71289;
+			//var initLatitude = 37.09024;
+			//var initLongitude = -95.71289;
+
+			var	initLatitude = 10.498705;
+			var	initLongitude = -66.788824;
 
 			// Map Extended Settings
 			var mapSettings = {
@@ -173,7 +162,7 @@
 				markers: mapMarkers,
 				latitude: initLatitude,
 				longitude: initLongitude,
-				zoom: 5
+				zoom: 16
 			};
 
 			var map = $("#googlemaps").gMap(mapSettings);
