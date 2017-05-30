@@ -25,6 +25,22 @@ Version: 		4.3.1
 	}
 
 	/*
+	Circle Slider
+	*/
+	if ($.isFunction($.fn.flipshow2)) {
+		var circleContainer2 = $('#fcSlideshow2');
+
+		if (circleContainer2.get(0)) {
+			circleContainer2.flipshow2();
+
+			setTimeout(function circleFlip2() {
+				circleContainer2.data().flipshow2._navigate(circleContainer2.find('div.fc-right span:first'), 'right');
+				setTimeout(circleFlip2, 3000);
+			}, 3000);
+		}
+	}
+
+	/*
 	Move Cloud
 	*/
 	if ($('.cloud').get(0)) {

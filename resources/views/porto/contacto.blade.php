@@ -42,7 +42,8 @@
 								<strong>Error!</strong> There was an error sending your message.
 							</div>
 
-							<h2 class="mb-sm mt-sm"><strong>Envíanos</strong> tus preguntas y comentarios.</h2>
+							
+							<h2>Envíanos tus<strong style="color: #FFA500"> preguntas y comentarios.</strong></h2>
 
                     			@if(Session::has('message'))
 					            
@@ -142,21 +143,27 @@
 						</div>
 						<div class="col-md-6">
 
-							<h4 class="heading-primary mt-lg">En <strong>AXIONTI</strong></h4>
+							
+
+							<h4>En<strong style="color: #FFA500"> AXION TI.</strong></h4>
+
 							<p>Tenemos la mejor solución para tu empresa</p>
 
 							<hr>
 
-							<h4 class="heading-primary">¿Cómo <strong>ubicarnos?</strong></h4>
+							
+							<h4>¿Cómo<strong style="color: #FFA500"> ubicarnos?</strong></h4>
+
 							<ul class="list list-icons list-icons-style-3 mt-xlg">
 								<li><i class="fa fa-map-marker"></i> <strong>Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental UNIMET. Edif. 1. P1. Ofic. AXIONTI, (B&G). Caracas, Edo. Miranda.</li>
 								<li><i class="fa fa-phone"></i> <strong>Teléfono:</strong> (123) 456-789</li>
-								<li><i class="fa fa-envelope"></i> <strong>Correo electrónico:</strong> <a href="mailto:ventas@axionti.com">ventas@axionti.com</a></li>
+								<li><i class="fa fa-envelope"></i> <strong>Correo electrónico:</strong> <a href="mailto:comercial@axionti.com">comercial@axionti.com</a></li>
 							</ul>
 
 							<hr>
 
-							<h4 class="heading-primary">Horario de <strong>Oficina</strong></h4>
+							<h4>Horario de<strong style="color: #FFA500"> ficina</strong></h4>
+
 							<ul class="list list-icons list-dark mt-xlg">
 								<li><i class="fa fa-clock-o"></i> Lunes - Viernes 8:00 am a 5:00 pm</li>
 							</ul>

@@ -37,7 +37,7 @@
 													
 													<li>
 														<a href="{{ route('home')}}">
-															AXIONTI
+															AXION TI
 														</a>
 													</li>
 
@@ -47,7 +47,6 @@
 														</a>
 														<ul class="dropdown-menu">
 															<li><a href="{{ route('servicios')}}">Servicios</a></li>
-															<li><a href="{{ route('nuestrasSoluciones')}}">Nuestras Soluciones</a></li>
 															<li><a href="{{ route('proyectos')}}">Proyectos</a></li>
 														</ul>
 													</li>

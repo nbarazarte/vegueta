@@ -42,7 +42,7 @@
 
 						<div class="col-md-8">
 							
-							<h2><strong style="color: #FFA500">AXIONTI</strong> Prevención con desarrollo tecnológico</h2>
+							<h2><strong style="color: #FFA500">AXION TI</strong> Prevención con desarrollo tecnológico</h2>
 
 							<p>Somos una marca con más de 12 años en el mercado venezolano en la industria de TI, con un enfoque de calidad de servicio preventivo apalancado en una <span class="alternative-font">plataforma tecnológica vanguardista</span> como lo es <strong>Kaseya</strong>, integrando soluciones tecnológicas que agrega valor a sus clientes a través de servicios de consultoría, comercialización de equipos y diseñando el servicio de outsourcing que se adapta a las necesidades de su organización.</p>
 							<p>Con un equipo humano especializado de muy alto nivel y flexible para ajustarse al retador entorno geográfico.</p>
@@ -185,12 +185,6 @@
 		</section>
 
 
-
-
-
-
-
-
 			<section class="section section-default section-with-mockup mb-none" id="porqueelegirnos">
 
 				<div class="container">
@@ -309,105 +303,7 @@
 					</div>
 				</div>
 
-
-			<section id="equipo">
-				<div class="container">
-					<div class="row mt-xlg">
-						<div class="col-md-12">
-							<h2>Equipo <strong style="color: #FFA500">AXIONTI</strong></h2>
-							<p>En <strong>AXIONTI</strong> apostamos por el talento humano como <span class="alternative-font">la base para el éxito</span> y la consecución de nuestros objetivos.
-								Por eso contamos con el apoyo y la colaboración de profesionales del área de Tecnología de la Información, Administración y Finanzas, Recursos Humanos, Relaciones Industriales y Desarrollo Organizacional, para cumplir a cabalidad con nuestro compromiso.</p>
-						</div>
-					</div>
-					<div class="row mb-xlg">
-						<div class="col-md-3 col-sm-6 col-xs-12">
-							<span class="thumb-info thumb-info-hide-wrapper-bg">
-								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
-										<img src="porto/img/team/team-1.jpg" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Nailis Blandin</span>
-											<span class="thumb-info-type" style="background-color: #FFA500">CEO</span>
-										</span>
-									</a>
-								</span>
-								<span class="thumb-info-caption">
-									<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-									<span class="thumb-info-social-icons">
-										<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-										<a href="http://www.twitter.com"><i class="fa fa-twitter"></i><span>Twitter</span></a>
-										<a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
-									</span>
-								</span>
-							</span>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
-							<span class="thumb-info thumb-info-hide-wrapper-bg">
-								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
-										<img src="porto/img/team/team-2.jpg" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Clover Brito</span>
-											<span class="thumb-info-type" style="background-color: #FFA500">Presidente</span>
-										</span>
-									</a>
-								</span>
-								<span class="thumb-info-caption">
-									<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-									<span class="thumb-info-social-icons">
-										<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-										<a href="http://www.twitter.com"><i class="fa fa-twitter"></i><span>Twitter</span></a>
-										<a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
-									</span>
-								</span>
-							</span>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
-							<span class="thumb-info thumb-info-hide-wrapper-bg">
-								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
-										<img src="porto/img/team/team-3.jpg" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Rick Edward Doe</span>
-											<span class="thumb-info-type" style="background-color: #FFA500">Developer</span>
-										</span>
-									</a>
-								</span>
-								<span class="thumb-info-caption">
-									<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-									<span class="thumb-info-social-icons">
-										<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-										<a href="http://www.twitter.com"><i class="fa fa-twitter"></i><span>Twitter</span></a>
-										<a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
-									</span>
-								</span>
-							</span>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12">
-							<span class="thumb-info thumb-info-hide-wrapper-bg">
-								<span class="thumb-info-wrapper">
-									<a href="about-me.html">
-										<img src="porto/img/team/team-4.jpg" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Melinda Wolosky</span>
-											<span class="thumb-info-type" style="background-color: #FFA500">Design</span>
-										</span>
-									</a>
-								</span>
-								<span class="thumb-info-caption">
-									<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-									<span class="thumb-info-social-icons">
-										<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-										<a href="http://www.twitter.com"><i class="fa fa-twitter"></i><span>Twitter</span></a>
-										<a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
-									</span>
-								</span>
-							</span>
-						</div>
-					</div>
-				</div>
-			</section>
-
+			@include('porto.equipo')
 
 
 	</div>

@@ -38,7 +38,7 @@
 									data-transform_in="y:[100%];s:500;"
 									data-transform_out="opacity:0;s:500;"
 									style="z-index: 5"
-									data-mask_in="x:0px;y:0px;"><img src="porto/img/slides/slide-title-border.png" alt=""> AxionTI <img src="porto/img/slides/slide-title-border.png" alt=""></div>
+									data-mask_in="x:0px;y:0px;"><img src="porto/img/slides/slide-title-border.png" alt=""> AXION TI <img src="porto/img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption bottom-label center"
 									data-x="center" data-hoffset="0"
@@ -79,7 +79,7 @@
 									data-transform_in="y:[100%];s:500;"
 									data-transform_out="opacity:0;s:500;"
 									style="z-index: 5"
-									data-mask_in="x:0px;y:0px;">  <div style="color: #FFA500"> En AxionTI </div> </div>
+									data-mask_in="x:0px;y:0px;">  <div style="color: #FFA500"> En AXION TI </div> </div>
 
 								<div class="tp-caption bottom-label"
 									data-x="545" data-hoffset="0"
