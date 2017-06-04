@@ -4,19 +4,6 @@
 
 <div role="main" class="main">
 
-	<section id="casos" class="page-header page-header-custom-background" style="background-image: url({{ asset('porto/img/custom-header-bg.jpg') }});">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1> <strong style="color: #FFA500">Contáctanos</strong>  <span>Consolidar y optimizar la plataforma tecnológica es clave para el negocio.</span></h1>
-					<ul class="breadcrumb breadcrumb-valign-mid">
-						<li><a href="{{ route('home')}}">Inicio</a></li>
-						<li class="active">Contáctanos</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
 
 				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 				<div id="googlemaps" class="google-map"></div>
@@ -136,7 +123,7 @@
 								<div class="row">
 									<div class="col-md-12">
 										
-										{!! Form::submit('Enviar',['class' => 'btn btn-primary btn-lg mb-xlg', 'value' => 'Enviar', 'style' => 'background-color: #FFA500; border-style: solid; border-color: #FFA500' , 'data-loading-text' => 'Enviando']) !!}
+										{!! Form::submit('Enviar',['class' => 'btn btn-primary btn-lg mb-xlg', 'value' => 'Enviar', 'style' => '' , 'data-loading-text' => 'Enviando']) !!}
 									</div>
 								</div>
 							{!! Form::close() !!}

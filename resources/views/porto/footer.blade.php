@@ -1,37 +1,67 @@
 			<footer class="short" id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8">
-							<h4 class="heading-primary">About Porto</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet. Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos... <a href="#" class="btn-flat btn-xs">View More <i class="fa fa-arrow-right"></i></a></p>
-							<hr class="light">
+
+						<div class="col-md-3">
+							<h4 class="heading-primary"></h4>
+							
+
+								<a href="index.html" class="logo">
+									<img alt="logo axionti" class="img-responsive" src="{{ asset('porto/img/logoaxionti_blanco.png')}}">
+								</a>
+								<p style="text-align: center;">El nombre y logo de axionti<br> son marcas registradas.</p>
 						</div>
-						<div class="col-md-3 col-md-offset-1">
-							<h5 class="mb-sm">Contact Us</h5>
+
+
+
+
+
+						<div class="col-md-3">
+							<h4 class="heading-primary">Soporte</h4>
+							<p></p>
+
+
+							<ul class="list list-icons list-icons-sm">
+								<li><i class="fa fa-map" aria-hidden="true"></i> Mapa del Sitio</li>
+								<li><i class="fa fa-file-text-o" aria-hidden="true"></i> Términos del Servicio</li>
+								<li><i class="fa fa-briefcase" aria-hidden="true"></i> <a href="{{ route('trabaja')}}"> Trabaja con Nosotros</a></li>
+							</ul>
+
+							
+						</div>
+						<div class="col-md-3">
+							<h5 class="mb-sm">Contáctanos</h5>
 							<span class="phone">(800) 123-4567</span>
 							<p class="mb-none">International: (333) 456-6670</p>
-							<p class="mb-none">Fax: (222) 531-8999</p>
 							<ul class="list list-icons list-icons-sm">
-								<li><i class="fa fa-envelope"></i> <a href="mailto:okler@okler.net">okler@okler.net</a></li>
+								<li><i class="fa fa-envelope"></i> <a href="mailto:comercial@axionti.com">comercial@axionti.com</a></li>
 							</ul>
-							<ul class="social-icons">
-								<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
+
+						</div>
+
+						<div class="col-md-3">
+							<h4 class="heading-primary"></h4>
+							<p></p>
+
+								<a href="index.html" class="logo">
+									<img alt="logo bg" class="img-responsive" src="{{ asset('porto/img/bg.png')}}">
+								</a>
+								<p style="text-align: center;">Desarrollado por B&G Technologies <br> S.A. J-405498633</p>
 						</div>
 					</div>
 				</div>
 				<div class="footer-copyright">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-1">
-								<a href="index.html" class="logo">
-									<img alt="Porto Website Template" class="img-responsive" src="{{ asset('porto/img/logoaxionti.jpg')}}">
-								</a>
+							<div class="col-md-10">
+								<p>© {{ date('Y')}} axionti. Todos los derechos reservados.</p>
 							</div>
-							<div class="col-md-11">
-								<p>© Copyright 2015. All Rights Reserved.</p>
+							<div class="col-md-2">
+								<ul class="social-icons">
+									<li class="social-icons-facebook"><a href="https://www.facebook.com/axionti/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+									<li class="social-icons-twitter"><a href="https://twitter.com/search?q=%40axionti&src=typd" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+									<li class="social-icons-linkedin"><a href="https://www.linkedin.com/company-beta/2228496/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
 							</div>
 						</div>
 					</div>

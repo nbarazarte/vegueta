@@ -6,6 +6,28 @@
 
 		@include('porto.slider')
 
+
+				<div class="home-intro" id="home-intro">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-md-8">
+								<p>
+									Confíenos la gestión de la <em style="color: #00a69c">tecnología</em> en su empresa
+									<span> y le garantizamos el aumento de su productividad</span>
+								</p>
+							</div>
+							<div class="col-md-4">
+								<div class="get-started">
+									<a href="{{ route('contacto')}}" class="btn btn-lg btn-primary">Contáctanos</a>
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>		
+
 		<section  id="home">
 
 			<div class="container">
@@ -184,8 +206,24 @@
 
 		</section>
 
+		<section class="call-to-action call-to-action-primary mb-xl">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="call-to-action-content align-left pb-md mb-xl ml-none">
+							<h2 class="text-color-light mb-none mt-xl">Todo lo que su empresa <strong>necesita.</strong></h2>
+							<p class="lead mb-xl">Ofrecemos servicios flexibles y adaptadas a las necesidades tecnológicas de nuestros clientes</p>
+						</div>
+						<div class="call-to-action-btn">
+							<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987" target="_blank" class="btn btn-lg btn-primary btn-primary-scale-2 mr-md">Contáctanos</a>
+							<span class="mr-md text-color-light hidden-xs"> <strong></strong><span class="arrow arrow-light hlb" style="top: -88px; right: -47px;"></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-			<section class="section section-default section-with-mockup mb-none" id="porqueelegirnos">
+			<section class="" id="porqueelegirnos">
 
 				<div class="container">
 
@@ -282,30 +320,11 @@
 			</section>
 
 
-				<div class="home-intro" id="home-intro">
-					<div class="container">
-
-						<div class="row">
-							<div class="col-md-8">
-								<p>
-									Confíenos la gestión de la <em>tecnología</em>
-									<span>en su empresa y le garantizamos el aumento de su productividad</span>
-								</p>
-							</div>
-							<div class="col-md-4">
-								<div class="get-started">
-									<a href="{{ route('contacto')}}" class="btn btn-lg btn-primary">Contáctanos</a>
-									
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
 
 			@include('porto.equipo')
 
 
 	</div>
 		
+
 @endsection		

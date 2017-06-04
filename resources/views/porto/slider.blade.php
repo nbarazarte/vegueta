@@ -7,7 +7,17 @@
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"
+									data-kenburns="on"
+									data-duration="9000"
+									data-ease="Linear.easeNone"
+									data-scalestart="150"
+									data-scaleend="100"
+									data-rotatestart="0"
+									data-rotateend="0"
+									data-offsetstart="0 0"
+									data-offsetend="0 0"
+									data-bgparallax="10">
 
 								<div class="tp-caption"
 									data-x="center" data-hoffset="-150"
@@ -47,7 +57,7 @@
 									style="z-index: 5"
 									data-transform_in="y:[100%];opacity:0;s:500;">Somos el talento humano que impulsa a la tecnología <br> y la innovación para el desarrollo de su empresa.</div>
 
-								<a class="tp-caption btn btn-lg btn-secondary btn-slider-action"
+								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
 									data-hash
 									data-hash-offset="85"
 									href="#home"
@@ -69,7 +79,17 @@
 									data-bgposition="center center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
+									class="rev-slidebg"
+									data-kenburns="on"
+									data-duration="9000"
+									data-ease="Linear.easeNone"
+									data-scalestart="150"
+									data-scaleend="100"
+									data-rotatestart="0"
+									data-rotateend="0"
+									data-offsetstart="0 0"
+									data-offsetend="0 0"
+									data-bgparallax="10">>
 
 								<div class="tp-caption main-label"
 									data-x="785" data-hoffset="0"

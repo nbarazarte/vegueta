@@ -39,18 +39,14 @@ Route::group(['prefix' => '/Soluciones'], function () {
 
 
 
-
-
-
-
-
-
-
-
-
 Route::get('/Trabaja-con-Nosotros', [
 	'uses' => 'HomeController@trabaja',
 	'as' =>'trabaja'
+]);	
+
+Route::put('Enviando-CV', [
+		'uses' => 'HomeController@enviarTrabaja',
+		'as' =>'enviarTrabaja'
 ]);	
 
 Route::get('/Casos-de-éxito', [

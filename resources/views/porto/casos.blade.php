@@ -4,38 +4,7 @@
 
 <div role="main" class="main">
 
-	<section id="casos" class="page-header page-header-custom-background" style="background-image: url({{ asset('porto/img/custom-header-bg.jpg') }});">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Casos de <strong style="color: #FFA500">Éxito</strong>  <span>Consolidar y optimizar la plataforma tecnológica es clave para el negocio.</span></h1>
-					<ul class="breadcrumb breadcrumb-valign-mid">
-						<li><a href="{{ route('home')}}">Inicio</a></li>
-						<li class="active">Casos de Éxito</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section id="">
-		<div class="container">
-			<div class="row mt-xlg">
-				<div class="col-md-12">
-
-					<p>
-						
-						En AXIONTI, nos diferenciamos por nuestra capacidad de ofrecer el servicio de manera integral, incluyendo la definición de la estrategia, el diseño, la construcción y la operación del mismo. Aplicamos técnicas y metodologías de <span class="alternative-font">clase mundial</span> e integramos nuestra experiencia certificada, en tecnologías innovadoras que garantizan la consecución de los objetivos del negocio.								
-					</p>
-
-				</div>
-			</div>
-
-
-
-		</div>
-
-	</section>
 
 
 				<section class="video section section-text-light section-video section-center mt-none" data-video-path="porto/video/dark" data-plugin-video-background data-plugin-options='{"posterType": "jpg", "position": "50% 50%", "overlay": true}'>
@@ -76,6 +45,13 @@
 
 					</div>
 				</section>	
+
+
+
+
+
+
+
 
 <div class="container">
 					<div class="row center">

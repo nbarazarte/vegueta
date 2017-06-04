@@ -34,7 +34,7 @@
 							<i class="fa fa-eye-slash" aria-hidden="true"></i>
 						</div>
 						<div class="feature-box-info">
-							<h4 class="mb-sm" style="color: #0088cc">Supervisión y Gestión Remota</h4>
+							<h4 class="mb-sm" style="color: #00a69c">Supervisión y Gestión Remota</h4>
 							<p class="mb-lg">
 								
 								<ul class="list list-icons list-secondary">
@@ -56,24 +56,40 @@
 					</div>
 
 				</div>
+
+
+
 				<div class="col-md-6">
+
 					<div class="feature-box feature-box-style-5">
 						<div class="feature-box-icon">
-							<i class="fa fa-ticket" aria-hidden="true"></i>
+							<i class="fa fa-shield" aria-hidden="true"></i>
 						</div>
-						<div class="feature-box-info" style="color: #0088cc">
-							<h4 class="mb-sm" style="color: #0088cc">Creación de tickets e Incidencias</h4>
+						<div class="feature-box-info">
+							<h4 class="mb-sm" style="color: #00a69c">Antivirus y Gestión de Seguridad</h4>
 							<p class="mb-lg">
 								
 								<ul class="list list-icons list-secondary">
-									<li><i class="fa fa-check"></i> .</li>
-									<li><i class="fa fa-check"></i> .</li>
+									<li><i class="fa fa-check"></i> Proporciona actualizaciones y alertas de estado en tiempo real.</li>
+									<li><i class="fa fa-check"></i> Configuración de Perfiles.</li>
+									<li><i class="fa fa-check"></i> Gestión de Licencias.</li>
+									<li><i class="fa fa-check"></i> Conjunto de Columnas.</li>
 								</ul>
 
 							</p>
 						</div>
-					</div>
+					</div>				
+
 				</div>
+		
+
+
+
+
+
+
+
+
 			</div>
 
 			<div class="row">
@@ -83,7 +99,7 @@
 							<i class="fa fa-terminal" aria-hidden="true"></i>
 						</div>
 						<div class="feature-box-info">
-							<h4 class="mb-sm" style="color: #0088cc">Control Remoto</h4>
+							<h4 class="mb-sm" style="color: #00a69c">Control Remoto</h4>
 							<p class="mb-lg">
 								
 								<ul class="list list-icons list-secondary">
@@ -102,7 +118,7 @@
 							<i class="fa fa-bug" aria-hidden="true"></i>
 						</div>
 						<div class="feature-box-info">
-							<h4 class="mb-sm" style="color: #0088cc">Administración de Parches</h4>
+							<h4 class="mb-sm" style="color: #00a69c">Administración de Parches</h4>
 							<p class="mb-lg">
 								
 								<ul class="list list-icons list-secondary">
@@ -124,7 +140,7 @@
 							<i class="fa fa-search" aria-hidden="true"></i>
 						</div>
 						<div class="feature-box-info">
-							<h4 class="mb-sm" style="color: #0088cc">Auditoría de Red/Inventario</h4>
+							<h4 class="mb-sm" style="color: #00a69c">Auditoría de Red/Inventario</h4>
 							<p class="mb-lg">
 								
 								<ul class="list list-icons list-secondary">
@@ -138,24 +154,25 @@
 					</div>
 				</div>
 				<div class="col-md-6">
+
 					<div class="feature-box feature-box-style-5">
 						<div class="feature-box-icon">
-							<i class="fa fa-shield" aria-hidden="true"></i>
+							<i class="fa fa-ticket" aria-hidden="true"></i>
 						</div>
 						<div class="feature-box-info">
-							<h4 class="mb-sm" style="color: #0088cc">Antivirus y Gestión de Seguridad</h4>
+							<h4 class="mb-sm" style="color: #00a69c">Creación de tickets e Incidencias</h4>
 							<p class="mb-lg">
 								
+								<!--
 								<ul class="list list-icons list-secondary">
-									<li><i class="fa fa-check"></i> Proporciona actualizaciones y alertas de estado en tiempo real.</li>
-									<li><i class="fa fa-check"></i> Configuración de Perfiles.</li>
-									<li><i class="fa fa-check"></i> Gestión de Licencias.</li>
-									<li><i class="fa fa-check"></i> Conjunto de Columnas.</li>
+									<li><i class="fa fa-check"></i> .</li>
+									<li><i class="fa fa-check"></i> .</li>
 								</ul>
-
+								-->
 							</p>
 						</div>
 					</div>
+
 				</div>
 			</div>							
 

@@ -1,7 +1,7 @@
 			<div class="row">
 				<div class="col-md-4">
 
-					<img class="img-responsive mt-xl appear-animation" src="{{ asset('porto/img/gigantes-tecnologicos-grande.jpg')}}" alt="layout styles" data-appear-animation="fadeInLeft">
+					<img class="img-responsive mt-xl appear-animation" src="{{ asset('porto/img/logos_tecnologia.png')}}" alt="layout styles" data-appear-animation="fadeInLeft">
 
 				</div>
 				<div class="col-md-7 col-md-offset-1">
@@ -21,7 +21,7 @@
 				<div class="row">
 
 					<br>
-					<h2 class="mt-xl" style="color: #0088cc"><strong>Software</strong> </h2>
+					<h2 class="mt-xl" style="color: #FFA500"><strong>Software</strong> </h2>
 
 					<div class="col-md-4 col-sm-6">
 						<div class="featured-box featured-box-primary featured-box-effect-1">
@@ -95,7 +95,15 @@
 				</div>
 			</div>	
 
-			<h2 class="mt-xl" style="color: #0088cc"><strong>Hardware</strong> </h2>
+
+
+
+
+
+
+
+
+			<h2 class="mt-xl" style="color: #FFA500"><strong>Hardware</strong> </h2>
 
 			<div class="row">
 
@@ -233,9 +241,7 @@
 				</div>
 			</div>
 
-			<h2 class="mt-xl" style="color: #0088cc">Arrendamiento de <strong>Equipos</strong> </h2>
-
-			<section class="section section-no-background section-no-border mt-none" id="features">
+			<h2 class="mt-xl">Arrendamiento de <strong style="color: #FFA500">Equipos</strong> </h2>			
 
 				<div class="container">
 
@@ -273,4 +279,150 @@
 						</div>
 					</div>
 				</div>
-			</section>
+
+
+
+
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 center">
+							<h2 class="heading-dark mt-xl">Nuestros <strong>Planes</strong></h2>
+							<p>Nuestros planes pueden ser en dólares o moneda nacional. <br>
+							Con plazos de 12 a 36 meses.</p>
+
+							<h2 class="heading-dark mt-xl">Arrendamiento de equipos de <strong>cómputo</strong></h2>
+
+						</div>
+					</div>
+					<div class="row mb-xl pb-lg">
+
+						<div class="pricing-table princig-table-flat">
+							<div class="col-md-3 col-sm-6">
+								<div class="plan">
+									<h3><span>Diamante</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted tiene la opción de comprar el equipo al finalizar el contrato</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>	
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Instalación del agente Kaseya</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega del inventario en tiempo record</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
+										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 center">
+								<div class="plan most-popular">
+									<h3><em class="desc"></em><span>Oro</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Instalación del agente Kaseya</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega del inventario en tiempo record</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
+										<li><a class="btn btn-primary" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="plan">
+									<h3><span>Plata</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Instalación del agente Kaseya</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega del inventario en tiempo record</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="plan">
+									<h3><span>Bronce</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 center">
+
+							<h2 class="heading-dark mt-xl">Arrendamiento de <strong>impresoras</strong></h2>
+
+						</div>
+					</div>
+					<div class="row mb-xl pb-lg">
+
+						<div class="pricing-table princig-table-flat">
+							<div class="col-md-3 col-sm-6">
+								<div class="plan">
+									<h3><span>Diamante</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted tiene la opción de comprar el equipo al finalizar el contrato</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega de suministros: papel y toner</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
+										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 center">
+								<div class="plan most-popular">
+									<h3><em class="desc"></em><span>Oro</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega de suministros: papel y toner</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
+										<li><a class="btn btn-primary" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="plan">
+									<h3><span>Plata</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega de suministros: papel y toner</li>
+										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="plan">
+									<h3><span>Bronce</span></h3>
+									<ul class="list list-icons list-secondary">
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
+										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
+										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+			
