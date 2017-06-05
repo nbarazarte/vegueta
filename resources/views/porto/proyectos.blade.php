@@ -69,7 +69,7 @@
 									<div class="col-md-4">
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-none">Voz & Aplicacion</h4>
@@ -86,7 +86,7 @@
 										</div>
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-file"></i>
+												<i class="fa fa-building" aria-hidden="true"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-none">Infraestructura IT</h4>
@@ -104,7 +104,7 @@
 									<div class="col-md-4">
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-film"></i>
+												<i class="fa fa-laptop" aria-hidden="true"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-none">Conectividad y optimización</h4>
@@ -121,7 +121,7 @@
 										</div>
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-check"></i>
+												<i class="fa fa-shield" aria-hidden="true"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-none">Seguridad</h4>
@@ -207,7 +207,35 @@
 							.owl-padding-20
 					-->
 
+					@foreach($proyectos as $proyecto)
 
+						<div class="modal fade" id="{{ $proyecto->id }}" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title" id="largeModalLabel"> Proyectos <strong style="color: #FFA500">Realizados</strong></h4>
+																				
+									</div>
+									<div class="modal-body">
+
+										<ul>
+											<li><strong>Proyecto:</strong> {{ $proyecto->str_proyecto }}</li>
+											<li><strong>Empresa:</strong> {{ $proyecto->str_empresa }}</li>
+											<li><strong>Horas:</strong> {{ $proyecto->int_horas }}</li>
+											<li><strong>Fecha:</strong> {{ $proyecto->dmt_fecha }}</li>
+										</ul>
+
+										<p><strong>Descripción:</strong> {!! html_entity_decode($proyecto->str_descripcion) !!}</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					@endforeach
 
 					<div class="row">
 						<div class="col-md-12">
@@ -216,108 +244,29 @@
 					</div>
 
 					<div class="owl-carousel owl-padding-10 buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items":"4", "autoPlay": 4000, "navigation": true, "pagination": false}'>
+
+
+					@foreach($proyectos as $proyecto)
+
 						<div class="img-hover">
-							<a href="#">
-								<img class="img-responsive thumbnail" src="{{ asset('smarty/assets/images/img_proyectos/1.png')}}" alt="">
+							<a href="#" data-toggle="modal" data-target="#{{ $proyecto->id }}">
+								<img src="data:image/jpeg;base64,{{ base64_encode($proyecto->blb_img) }}" alt="{!! $proyecto->str_proyecto !!}" title="{!! $proyecto->str_proyecto !!}" class="img-responsive thumbnail">								
 							</a>
 
-							<h4 class="text-left margin-top-20"><a href="#">Fortinet</a></h4>
+							<h4 class="text-left margin-top-20"><a href="#" data-toggle="modal" data-target="#{{ $proyecto->id }}">{{ $proyecto->str_proyecto }}</a></h4>
+
 							
 							<ul class="text-left size-12 list-inline list-separator">
 								<li>
 									<i class="fa fa-calendar"></i> 
-									Febrero 2016
+									{{ $proyecto->dmt_fecha }}
 								</li>
 
 							</ul>
 						</div>
-						<div class="img-hover">
-							<a href="#">
-								<img class="img-responsive thumbnail" src="{{ asset('smarty/assets/images/img_proyectos/6.png')}}" alt="">
-							</a>
+						@endforeach
 
-							<h4 class="text-left margin-top-20"><a href="#">Central Telefónica</a></h4>
-							
-							<ul class="text-left size-12 list-inline list-separator">
-								<li>
-									<i class="fa fa-calendar"></i> 
-									Diciembre 2016
-								</li>
 
-							</ul>
-						</div>
-						<div class="img-hover">
-							<a href="#">
-								<img class="img-responsive thumbnail" src="{{ asset('smarty/assets/images/img_proyectos/7.png')}}" alt="">
-							</a>
-
-							<h4 class="text-left margin-top-20"><a href="#">Backup (Nass /Google Drive)</a></h4>
-							
-							<ul class="text-left size-12 list-inline list-separator">
-								<li>
-									<i class="fa fa-calendar"></i> 
-									Diciembre 2016
-								</li>
-
-							</ul>
-						</div>
-						<div class="img-hover">
-							<a href="#">
-								<img class="img-responsive thumbnail" src="{{ asset('smarty/assets/images/img_proyectos/10.png')}}" alt="">
-							</a>
-
-							<h4 class="text-left margin-top-20"><a href="#">Monitor Tecnológico</a></h4>
-							
-							<ul class="text-left size-12 list-inline list-separator">
-								<li>
-									<i class="fa fa-calendar"></i> 
-									Abril 2016
-								</li>
-
-							</ul>
-						</div>
-						<div class="img-hover">
-							<a href="#">
-								<img class="img-responsive thumbnail" src="{{ asset('smarty/assets/images/img_proyectos/4.png')}}" alt="">
-							</a>
-							<h4 class="text-left margin-top-20"><a href="#">Fireware Watchguard</a></h4>
-							
-							<ul class="text-left size-12 list-inline list-separator">
-								<li>
-									<i class="fa fa-calendar"></i> 
-									Diciembre 2015
-								</li>
-
-							</ul>
-						</div>
-						<div class="img-hover">
-							<a href="#">
-								<img class="img-responsive thumbnail" src="{{ asset('smarty/assets/images/img_proyectos/3.png')}}" alt="">
-							</a>
-							<h4 class="text-left margin-top-20"><a href="#">Migración a Office 365</a></h4>
-							
-							<ul class="text-left size-12 list-inline list-separator">
-								<li>
-									<i class="fa fa-calendar"></i> 
-									Octubre 2015
-								</li>
-
-							</ul>
-						</div>
-						<div class="img-hover">
-							<a href="#">
-								<img class="img-responsive thumbnail" src="{{ asset('smarty/assets/images/img_proyectos/5.png')}}" alt="">
-							</a>
-							<h4 class="text-left margin-top-20"><a href="#">Migración a la Azure</a></h4>
-							
-							<ul class="text-left size-12 list-inline list-separator">
-								<li>
-									<i class="fa fa-calendar"></i> 
-									Octubre 2016
-								</li>
-
-							</ul>
-						</div>
 
 					</div>
 

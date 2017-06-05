@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use PHPMailer;
+use DB;
 
 class HomeController extends Controller
 {
@@ -19,7 +20,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //return view('smarty.index');
+
         return view('porto.index');
     }
 
@@ -32,8 +33,23 @@ class HomeController extends Controller
      */
     public function servicios()
     {
-        //return view('smarty.index');
-        return view('porto.servicios');
+        $hardware = DB::table('tbl_modelos as mo')
+        ->join('tbl_marca as ma', 'ma.id', '=', 'mo.lng_idmarca')               
+        ->where('mo.bol_eliminado', '=', 0)
+        ->select('mo.id as idmodelo','str_nombre as marca', 'str_modelo as modelo','mo.blb_img')
+        ->get();
+       //return $hardware;
+
+        $especificaciones = DB::table('tbl_especificaciones as es')         
+        ->where('es.bol_eliminado', '=', 0)
+        ->select('es.lng_idmodelo as idmodelo','str_caracteristica as caracteristica')
+        ->get();
+       //return $especificaciones;
+
+        //var_dump($hardware);
+        //die;
+
+        return view('porto.servicios',  compact('hardware','especificaciones'));
     }
 
     /**
@@ -54,8 +70,15 @@ class HomeController extends Controller
      */
     public function proyectos()
     {
-        //return view('smarty.index');
-        return view('porto.proyectos');
+        $proyectos = DB::table('tbl_proyectos')         
+        ->where('bol_eliminado', '=', 0)
+        ->select('id','str_empresa','str_proyecto', 'int_horas', 'dmt_fecha', 'str_descripcion','blb_img')
+        ->get();
+       //return $proyectos;
+
+        //var_dump($proyectos);
+        //die;
+        return view('porto.proyectos',compact('proyectos'));
     }    
 
     /**

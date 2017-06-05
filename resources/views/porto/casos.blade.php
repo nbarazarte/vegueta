@@ -36,6 +36,19 @@
 											</div>
 										</div>
 									</div>
+									<div>
+										<div class="col-md-12">
+											<div class="testimonial testimonial-style-6 testimonial-with-quotes mb-none">
+												<blockquote>
+													<p>Nosotros en Ofilarco nos sentimos 100% satisfechos con el trabajo que ustedes en Axion TI no han realizado. Nuestras referencias siempres serán las mejores, ya que nos han hecho un trabajo de excelente calidad respetando los tiempos acordados. En el futuro esperamos contar con su valioso servicio.
+													</p>
+												</blockquote>
+												<div class="testimonial-author">
+													<p><strong>Maritza Aldana</strong><span>Gerente de Tecnología de la Información</span></p>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

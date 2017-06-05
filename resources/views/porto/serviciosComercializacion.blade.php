@@ -95,147 +95,70 @@
 				</div>
 			</div>	
 
-
-
-
-
-
-
-
-
 			<h2 class="mt-xl" style="color: #FFA500"><strong>Hardware</strong> </h2>
 
 			<div class="row">
 
 				<div class="col-md-12">
 
-					<div id="popupProject" class="popup-inline-content">
-						<h2 class="mt-lg">Lorem Ipsum Dolor</h2>
+					@foreach ($hardware as $equipo)
 
-						<div class="row">
-							<div class="col-md-5">
-								<img class="img-thumbnail img-responsive mb-lg" alt="" src="{{ asset('porto/img/hardware/hp-envy.jpg')}}">
-							</div>
+						<div id="{{ $equipo->idmodelo }}" class="popup-inline-content">
+							<h2 class="mt-lg">{{ $equipo->marca }} - {{ $equipo->modelo }}</h2>
 
-							<div class="col-md-7">
+							<div class="row">
+								<div class="col-md-5">
 
-								<h4 class="heading-primary mb-sm">Project <strong>Description</strong></h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris.</p>
+		                            <img src="data:image/jpeg;base64,{{ base64_encode($equipo->blb_img) }}" alt="{!! $equipo->modelo !!}" title="{!! $equipo->modelo !!}">
 
-								<a href="#" class="btn btn-primary">Live Preview</a> <span class="arrow hlb"></span>
+								</div>
 
-								<hr class="solid tall">
+								<div class="col-md-7">
 
-								<h4 class="heading-primary mt-lg">Services</h4>
+									<h4 class="heading-primary mb-sm"><strong>Caracteristicas</strong></h4>
 
-								<ul class="list list-icons">
-									<li><i class="fa fa-check"></i> Design</li>
-									<li><i class="fa fa-check"></i> HTML/CSS</li>
-									<li><i class="fa fa-check"></i> Javascript</li>
-								</ul>
+									<ul class="list list-icons">
 
+										@foreach ($especificaciones as $detalle)
+											
+											@if($equipo->idmodelo == $detalle->idmodelo)
+
+												<li><i class="fa fa-check"></i> {{ $detalle->caracteristica }}</li>
+
+											@endif
+
+										@endforeach
+									</ul>
+
+								</div>
 							</div>
 						</div>
-					</div>
+
+					@endforeach
 
 					<div class="owl-carousel owl-theme mb-none" data-plugin-options='{"items": 4, "margin": 20, "loop": false}'>
 
-						<div>
-							<a href="#popupProject" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
-								<span class="thumb-info">
-									<span class="thumb-info-wrapper">
-										<img src="{{ asset('porto/img/hardware/hp-envy2.jpg')}}" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">SEO</span>
-											<span class="thumb-info-type">Website</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-						<div>
-							<a href="#popupProject" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
-								<span class="thumb-info">
-									<span class="thumb-info-wrapper">
-										<img src="{{ asset('porto/img/hardware/elite-desk.jpg')}}" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">OKLER</span>
-											<span class="thumb-info-type">Brand</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+						@foreach ($hardware as $equipo)
+
+							<div>
+								<a href="#{{ $equipo->idmodelo }}" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
+									<span class="thumb-info">
+										<span class="thumb-info-wrapper">
+											<img src="data:image/jpeg;base64,{{ base64_encode($equipo->blb_img) }}" alt="{!! $equipo->modelo !!}" title="{!! $equipo->modelo !!}" class="img-responsive">
+											<span class="thumb-info-title">
+												<span class="thumb-info-inner">{{ $equipo->modelo }}</span>
+												<span class="thumb-info-type">{{ $equipo->marca }}</span>
+											</span>
+											<span class="thumb-info-action">
+												<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+											</span>
 										</span>
 									</span>
-								</span>
-							</a>
-						</div>
-						<div>
-							<a href="#popupProject" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
-								<span class="thumb-info">
-									<span class="thumb-info-wrapper">
-										<img src="{{ asset('porto/img/hardware/hp-prolian.jpg')}}" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">The Fly</span>
-											<span class="thumb-info-type">Logo</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-						<div>
-							<a href="#popupProject" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
-								<span class="thumb-info">
-									<span class="thumb-info-wrapper">
-										<img src="{{ asset('porto/img/hardware/ups.jpg')}}" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">The Code</span>
-											<span class="thumb-info-type">Website</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-						<div>
-							<a href="#popupProject" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
-								<span class="thumb-info">
-									<span class="thumb-info-wrapper">
-										<img src="{{ asset('porto/img/hardware/dell-inspirion.jpg')}}" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">House</span>
-											<span class="thumb-info-type">Website</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-						<div>
-							<a href="#popupProject" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
-								<span class="thumb-info">
-									<span class="thumb-info-wrapper">
-										<img src="{{ asset('porto/img/hardware/hp-envy.jpg')}}" class="img-responsive" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Music</span>
-											<span class="thumb-info-type">Website</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
+								</a>
+							</div>
+
+						@endforeach
+
 
 					</div>
 				</div>
