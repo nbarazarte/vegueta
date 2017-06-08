@@ -1,5 +1,11 @@
 				<div class="slider-container rev_slider_wrapper" style="height: 1000px;">
-					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{"sliderLayout":"fullscreen", "fullScreenOffsetContainer": "#header", "fullScreenOffset": "0"}'>
+					<!--
+
+						<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{"sliderLayout":"fullscreen", "fullScreenOffsetContainer": "#header", "fullScreenOffset": "0"}'>-->
+
+
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{"gridwidth": 1170, "gridheight": 325}'>
+
 						<ul>
 
 							<li data-transition="fade">
@@ -48,7 +54,7 @@
 
 							<li data-transition="fade">
 
-								<img src="{{ asset('porto/img/slides/banner-01.png')}}"  
+								<img src="{{ asset('porto/img/slides/banner.png')}}"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 

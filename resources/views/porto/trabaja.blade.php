@@ -27,7 +27,7 @@
 							</div>
 
 							
-							<h2>Nos gustría trabajar contigo,<strong style="color: #FFA500"> envíanos tus datos y adjunta tu hoja de vida.</strong></h2>
+							<h2>Nos gustría trabajar contigo,<strong style="color: #da5417"> envíanos tus datos y adjunta tu hoja de vida.</strong></h2>
 
 										
 
@@ -109,14 +109,14 @@
 
 							
 
-							<h4>En<strong style="color: #FFA500"> AXION TI.</strong></h4>
+							<h4>En<strong style="color: #da5417"> AXION TI.</strong></h4>
 
 							<p>Te estamos esperando.</p>
 
 							<hr>
 
 							
-							<h4>¿Cómo<strong style="color: #FFA500"> ubicarnos?</strong></h4>
+							<h4>¿Cómo<strong style="color: #da5417"> ubicarnos?</strong></h4>
 
 							<ul class="list list-icons list-icons-style-3 mt-xlg">
 								<li><i class="fa fa-map-marker"></i> <strong>Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental UNIMET. Edif. 1. P1. Ofic. AXIONTI, (B&G). Caracas, Edo. Miranda.</li>
@@ -126,7 +126,7 @@
 
 							<hr>
 
-							<h4>Horario de<strong style="color: #FFA500"> ficina</strong></h4>
+							<h4>Horario de<strong style="color: #da5417"> ficina</strong></h4>
 
 							<ul class="list list-icons list-dark mt-xlg">
 								<li><i class="fa fa-clock-o"></i> Lunes - Viernes 8:00 am a 5:00 pm</li>

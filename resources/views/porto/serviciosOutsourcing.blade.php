@@ -2,7 +2,7 @@
 
 <div class="row">
 	<div class="col-md-7">
-		<h2>Outsourcing <strong style="color: #FFA500">TI</strong></h2>
+		<h2>Outsourcing <strong style="color: #da5417">TI</strong></h2>
 		<p>
 			Soluciones verticales especialmente creadas para ofrecer servicios <span class="alternative-font">flexibles</span> y adaptados a las necesidades tecnológicas de nuestros clientes. Apoyándonos en las bondades de nuestra plataforma <strong>KASEYA <i class="fa fa-registered" aria-hidden="true"></i></strong>, experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confiabilidad y satisfacción.
 			<br>
@@ -38,10 +38,10 @@
 
 				<p>
 					<ul class="list list-icons list-secondary">
-						<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Atención cuando y donde sea.</li>
-						<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Gestión bajo SLA Practicas de ITIL.</li>
-						<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Escalabilidad interna Automatizada.</li>
-						<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Inversión por incidente atendido.</li>
+						<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Atención cuando y donde sea.</li>
+						<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Gestión bajo SLA Practicas de ITIL.</li>
+						<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Escalabilidad interna Automatizada.</li>
+						<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Inversión por incidente atendido.</li>
 													
 					</ul>
 				</p>
@@ -68,11 +68,11 @@
 
 			<p>
 				<ul class="list list-icons list-secondary">
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Mantenimiento preventivo 24x7.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Generación de alertas 24x7</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Monitor Tecnolóico.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Conocimiento total de sus activos de TI en tiempo real.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Distribución y actualización de software.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Mantenimiento preventivo 24x7.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Generación de alertas 24x7</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Monitor Tecnolóico.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Conocimiento total de sus activos de TI en tiempo real.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Distribución y actualización de software.</li>
 												
 				</ul>
 			</p>
@@ -99,10 +99,10 @@
 
 			<p>
 				<ul class="list list-icons list-secondary">
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Resguardo permanente.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Flexibilidad de Frecuencia.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Recuperación segura y encriptado.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Generación de alarmas automáticas.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Resguardo permanente.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Flexibilidad de Frecuencia.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Recuperación segura y encriptado.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Generación de alarmas automáticas.</li>
 					
 												
 				</ul>
@@ -135,10 +135,10 @@
 
 			<p>
 				<ul class="list list-icons list-secondary">
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Instalación y administración de Fireware.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Accesos y denegaciones.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Restricción de aplicaciones.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Administración centralizada de antivirus.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Instalación y administración de Fireware.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Accesos y denegaciones.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Restricción de aplicaciones.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Administración centralizada de antivirus.</li>
 												
 				</ul>
 			</p>
@@ -166,11 +166,11 @@
 
 			<p>
 				<ul class="list list-icons list-secondary">
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Personal Calificado.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Requerimiento con soporte remoto en tiempo real.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Inventario en tiempo real.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Generación de alertas en su plataforma.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Soporte presencial y no programado.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Personal Calificado.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Requerimiento con soporte remoto en tiempo real.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Inventario en tiempo real.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Generación de alertas en su plataforma.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Soporte presencial y no programado.</li>
 												
 				</ul>
 			</p>
@@ -198,10 +198,10 @@
 
 			<p>
 				<ul class="list list-icons list-secondary">
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Proveemos personal calificado en el área de sistemas.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Bajo supervisión del cliente.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Garantizamos el reemplazo del recurso humano.</li>
-					<li><i class="fa fa-check-circle-o" style="color: #FFA500"></i> Servicios administrados laboralmente por nuestra parte.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Proveemos personal calificado en el área de sistemas.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Bajo supervisión del cliente.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Garantizamos el reemplazo del recurso humano.</li>
+					<li><i class="fa fa-check-circle-o" style="color: #da5417"></i> Servicios administrados laboralmente por nuestra parte.</li>
 												
 				</ul>
 			</p>

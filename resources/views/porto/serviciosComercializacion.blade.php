@@ -6,7 +6,7 @@
 				</div>
 				<div class="col-md-7 col-md-offset-1">
 
-					<h2>Comercialización y <strong style="color: #FFA500">Suministros</strong></h2>
+					<h2>Comercialización y <strong style="color: #da5417">Suministros</strong></h2>
 
 					<p class="">
 
@@ -21,7 +21,7 @@
 				<div class="row">
 
 					<br>
-					<h2 class="mt-xl" style="color: #FFA500"><strong>Software</strong> </h2>
+					<h2 class="mt-xl" style="color: #da5417"><strong>Software</strong> </h2>
 
 					<div class="col-md-4 col-sm-6">
 						<div class="featured-box featured-box-primary featured-box-effect-1">
@@ -95,7 +95,7 @@
 				</div>
 			</div>	
 
-			<h2 class="mt-xl" style="color: #FFA500"><strong>Hardware</strong> </h2>
+			<h2 class="mt-xl" style="color: #da5417"><strong>Hardware</strong> </h2>
 
 			<div class="row">
 
@@ -164,7 +164,7 @@
 				</div>
 			</div>
 
-			<h2 class="mt-xl">Arrendamiento de <strong style="color: #FFA500">Equipos</strong> </h2>			
+			<h2 class="mt-xl">Arrendamiento de <strong style="color: #da5417">Equipos</strong> </h2>			
 
 				<div class="container">
 
@@ -232,7 +232,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
-										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+										<li><a class="btn btn-default" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>
@@ -246,7 +246,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
-										<li><a class="btn btn-primary" href="#">Comenzar</a></li>
+										<li><a class="btn btn-primary" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>
@@ -259,7 +259,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega del inventario en tiempo record</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
-										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+										<li><a class="btn btn-default" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>
@@ -270,7 +270,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
-										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+										<li><a class="btn btn-default" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>
@@ -302,7 +302,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega de suministros: papel y toner</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
-										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+										<li><a class="btn btn-default" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>
@@ -315,7 +315,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega de suministros: papel y toner</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Mantenimiento preventivo del equipo</li>
-										<li><a class="btn btn-primary" href="#">Comenzar</a></li>
+										<li><a class="btn btn-primary" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>
@@ -327,7 +327,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Entrega de suministros: papel y toner</li>
-										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+										<li><a class="btn btn-default" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>
@@ -338,7 +338,7 @@
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Alquiler del equipos por tiempo limitado</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> El equipo le pertenece a la arrendadora</li>
 										<li><strong><i class="fa fa-check" aria-hidden="true"></i></strong> Usted sólo paga la renta correspondiente</li>
-										<li><a class="btn btn-default" href="#">Comenzar</a></li>
+										<li><a class="btn btn-default" href="{{ route('contacto')}}">Comenzar</a></li>
 									</ul>
 								</div>
 							</div>

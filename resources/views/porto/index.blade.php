@@ -64,7 +64,7 @@
 
 						<div class="col-md-8">
 							
-							<h2><strong style="color: #FFA500">AXION TI</strong> Prevención con desarrollo tecnológico</h2>
+							<h2><strong style="color: #da5417">AXION TI</strong> Prevención con desarrollo tecnológico</h2>
 
 							<p>Somos una marca con más de 12 años en el mercado venezolano en la industria de TI, con un enfoque de calidad de servicio preventivo apalancado en una <span class="alternative-font">plataforma tecnológica vanguardista</span> como lo es <strong>Kaseya</strong>, integrando soluciones tecnológicas que agrega valor a sus clientes a través de servicios de consultoría, comercialización de equipos y diseñando el servicio de outsourcing que se adapta a las necesidades de su organización.</p>
 							<p>Con un equipo humano especializado de muy alto nivel y flexible para ajustarse al retador entorno geográfico.</p>
@@ -84,7 +84,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							
-							<h2>Nuestro <strong style="color: #FFA500">Norte</strong></h2>
+							<h2>Nuestro <strong style="color: #da5417">Norte</strong></h2>
 						</div>
 					</div>
 
@@ -229,7 +229,7 @@
 
 					<div class="row">
 						<div class="col-md-12">
-							<h2>¿POR QUÉ  <strong style="color: #FFA500">ELEGIRNOS?</strong></h2>
+							<h2>¿POR QUÉ  <strong style="color: #da5417">ELEGIRNOS?</strong></h2>
 						</div>
 					</div>
 

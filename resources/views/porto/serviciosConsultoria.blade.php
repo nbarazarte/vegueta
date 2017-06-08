@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-md-7">
-		<h2>Consultoría <strong style="color: #FFA500">TI</strong></h2>
+		<h2>Consultoría <strong style="color: #da5417">TI</strong></h2>
 
 		<p>
 			Contamos con un equipo adaptado a sus necesidades generando valor a través de diagnosticos y recomendaciones. 

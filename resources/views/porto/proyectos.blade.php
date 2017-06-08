@@ -34,7 +34,7 @@
 					<div class="row center">
 						<div class="col-md-12">
 							<h2 class="mb-sm word-rotator-title">
-								Nos diferenciamos por nuestra capacidad de <strong style="color: #FFA500"> ofrecer el servicio</strong> de manera integral
+								Nos diferenciamos por nuestra capacidad de <strong style="color: #da5417"> ofrecer el servicio</strong> de manera integral
 							</h2>
 							<p class="lead">
 								incluyendo la definición de la estrategia, el diseño, la construcción y la operación del mismo.
@@ -59,7 +59,7 @@
 
 					<div class="row">
 						<div class="col-md-12">
-							<h2>¿QUÉ  <strong style="color: #FFA500">OFRECEMOS?</strong></h2>
+							<h2>¿QUÉ  <strong style="color: #da5417">OFRECEMOS?</strong></h2>
 						</div>
 					</div>
 
@@ -156,7 +156,7 @@
 			<div class="row center">
 				<div class="col-md-12">
 					<h2 class="mb-sm word-rotator-title">
-						Aplicamos técnicas y metodologías de clase <span class="alternative-font">mundial</span> e integramos nuestra experiencia <strong style="color: #FFA500"> </strong>
+						Aplicamos técnicas y metodologías de clase mundial e integramos nuestra experiencia <strong style="color: #da5417"> </strong>
 					</h2>
 					<p class="lead">
 						certificada en tecnologías innovadoras que garantizan la consecución de los objetivos del negocio.					
@@ -214,7 +214,7 @@
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										<h4 class="modal-title" id="largeModalLabel"> Proyectos <strong style="color: #FFA500">Realizados</strong></h4>
+										<h4 class="modal-title" id="largeModalLabel"> Proyectos <strong style="color: #da5417">Realizados</strong></h4>
 																				
 									</div>
 									<div class="modal-body">
@@ -239,7 +239,7 @@
 
 					<div class="row">
 						<div class="col-md-12">
-							<h2>Proyectos  <strong style="color: #FFA500">Realizados</strong></h2>
+							<h2>Proyectos  <strong style="color: #da5417">Realizados</strong></h2>
 						</div>
 					</div>
 

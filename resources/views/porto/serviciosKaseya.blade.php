@@ -10,7 +10,7 @@
 
 	</div>
 	<div class="col-md-7 col-md-offset-1">
-		<h2>Kaseya <strong style="color: #FFA500">VSA</strong></h2>
+		<h2>Kaseya <strong style="color: #da5417">VSA</strong></h2>
 
 		<p class="">
 			Somos partner de <strong style="color: black">Kaseya</strong>, un software que integra la automatización en la implementación de sistemas y la administración de procesos mediante la replicación de las mejores prácticas asociadas a la provisión de servicios.

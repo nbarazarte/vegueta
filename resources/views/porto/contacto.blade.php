@@ -30,7 +30,7 @@
 							</div>
 
 							
-							<h2>Envíanos tus<strong style="color: #FFA500"> preguntas y comentarios.</strong></h2>
+							<h2>Envíanos tus<strong style="color: #da5417"> preguntas y comentarios.</strong></h2>
 
                     			@if(Session::has('message'))
 					            
@@ -132,14 +132,14 @@
 
 							
 
-							<h4>En<strong style="color: #FFA500"> AXION TI.</strong></h4>
+							<h4>En<strong style="color: #da5417"> AXION TI.</strong></h4>
 
 							<p>Tenemos la mejor solución para tu empresa</p>
 
 							<hr>
 
 							
-							<h4>¿Cómo<strong style="color: #FFA500"> ubicarnos?</strong></h4>
+							<h4>¿Cómo<strong style="color: #da5417"> ubicarnos?</strong></h4>
 
 							<ul class="list list-icons list-icons-style-3 mt-xlg">
 								<li><i class="fa fa-map-marker"></i> <strong>Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental UNIMET. Edif. 1. P1. Ofic. AXIONTI, (B&G). Caracas, Edo. Miranda.</li>
@@ -149,7 +149,7 @@
 
 							<hr>
 
-							<h4>Horario de<strong style="color: #FFA500"> ficina</strong></h4>
+							<h4>Horario de<strong style="color: #da5417"> ficina</strong></h4>
 
 							<ul class="list list-icons list-dark mt-xlg">
 								<li><i class="fa fa-clock-o"></i> Lunes - Viernes 8:00 am a 5:00 pm</li>

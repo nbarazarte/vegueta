@@ -44,7 +44,7 @@
 							<p></p>
 
 								<a href="index.html" class="logo">
-									<img alt="logo bg" class="img-responsive" src="{{ asset('porto/img/bg.png')}}">
+									<img alt="logo bg" class="img-responsive" src="{{ asset('porto/img/byg.png')}}">
 								</a>
 								<p style="text-align: center;">Desarrollado por B&G Technologies <br> S.A. J-405498633</p>
 						</div>
