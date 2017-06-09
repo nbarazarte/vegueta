@@ -30,10 +30,11 @@
 							
 						</div>
 						<div class="col-md-3">
-							<h5 class="mb-sm">Contáctanos</h5>
-							<span class="phone">(800) 123-4567</span>
-							<p class="mb-none">International: (333) 456-6670</p>
+							<h5 class="mb-sm"> <a href="{{ route('contacto') }}"> Contáctanos</a></h5>
+							<span class="phone">(212) 204-21-76</span>
 							<ul class="list list-icons list-icons-sm">
+								<li><i class="fa fa-phone-square" aria-hidden="true"></i> (212) 241-26-90</li>
+								<li><i class="fa fa-phone-square" aria-hidden="true"></i> (212) 242-61-14</li>
 								<li><i class="fa fa-envelope"></i> <a href="mailto:comercial@axionti.com">comercial@axionti.com</a></li>
 							</ul>
 

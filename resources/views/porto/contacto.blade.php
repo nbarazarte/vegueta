@@ -143,13 +143,13 @@
 
 							<ul class="list list-icons list-icons-style-3 mt-xlg">
 								<li><i class="fa fa-map-marker"></i> <strong>Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental UNIMET. Edif. 1. P1. Ofic. AXIONTI, (B&G). Caracas, Edo. Miranda.</li>
-								<li><i class="fa fa-phone"></i> <strong>Teléfono:</strong> (123) 456-789</li>
-								<li><i class="fa fa-envelope"></i> <strong>Correo electrónico:</strong> <a href="mailto:comercial@axionti.com">comercial@axionti.com</a></li>
+								<li><i class="fa fa-phone"></i> <strong>Teléfonos:</strong> (212) 204-21-76 / (212) 241-26-90 / (212) 242-61-14</li>
+								<li><i class="fa fa-envelope"></i> <strong>Correo Electrónico:</strong> <a href="mailto:comercial@axionti.com">comercial@axionti.com</a></li>
 							</ul>
 
 							<hr>
 
-							<h4>Horario de<strong style="color: #da5417"> ficina</strong></h4>
+							<h4>Horario de<strong style="color: #da5417"> Oficina</strong></h4>
 
 							<ul class="list list-icons list-dark mt-xlg">
 								<li><i class="fa fa-clock-o"></i> Lunes - Viernes 8:00 am a 5:00 pm</li>
