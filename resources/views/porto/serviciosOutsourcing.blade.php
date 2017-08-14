@@ -6,7 +6,7 @@
 		<p>
 			Soluciones verticales especialmente creadas para ofrecer servicios <span class="alternative-font">flexibles</span> y adaptados a las necesidades tecnológicas de nuestros clientes. Apoyándonos en las bondades de nuestra plataforma <strong>KASEYA <i class="fa fa-registered" aria-hidden="true"></i></strong>, experiencia e infraestructura, estas soluciones permiten ofrecerles un alto nivel de confiabilidad y satisfacción.
 			<br>
-			Axion Ti presenta un nuevo esquema de negocio basado en outsourcing TI bajo demanda, donde solo pagas lo que consumes en el mes.
+			Axion Ti presenta un nuevo esquema de negocio basado en outsourcing TI bajo demanda, donde <strong>solo pagas lo que consumes en el mes.</strong>
 		</p>
 	</div>
 	<div class="col-md-4 col-md-offset-1 mt-xl">
@@ -27,14 +27,12 @@
 
 		<div class="box-video ">
 
-			<!--
+	
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/cjL7Ja4VXnY"></iframe>
 			</div>
-			-->
-			<span class="img-thumbnail">
-				<img class="img-responsive" src="{{ asset('porto/img/axion_desk.jpg') }}" alt="" >
-			</span>
+			
+
 
 				<p>
 					<ul class="list list-icons list-secondary">
@@ -57,14 +55,12 @@
 
 		<div class="box-video">
 
-			<!--
+			
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/dcLGgNKBnSM"></iframe>
 			</div>
-			-->
-			<span class="img-thumbnail">
-				<img class="img-responsive" src="{{ asset('porto/img/axion_monitor.jpg') }}" alt="" >
-			</span>
+			
+
 
 			<p>
 				<ul class="list list-icons list-secondary">
@@ -88,14 +84,10 @@
 
 		<div class="box-video">
 
-			<!--
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/CeR9a_lGvS8"></iframe>
 			</div>
-			-->
-			<span class="img-thumbnail">
-				<img class="img-responsive" src="{{ asset('porto/img/axion_backup.jpg') }}" alt="" >
-			</span>
+
 
 			<p>
 				<ul class="list list-icons list-secondary">
@@ -124,14 +116,10 @@
 
 		<div class="box-video">
 
-			<!--
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/qM1nrAxCbJ8"></iframe>
 			</div>
-			-->
-			<span class="img-thumbnail">
-				<img class="img-responsive" src="{{ asset('porto/img/axion_security.jpg') }}" alt="" >
-			</span>
+
 
 			<p>
 				<ul class="list list-icons list-secondary">
@@ -155,14 +143,11 @@
 
 		<div class="box-video">
 
-			<!--
+	
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/WIodHqSa7zM"></iframe>
 			</div>
-			-->
-			<span class="img-thumbnail">
-				<img class="img-responsive" src="{{ asset('porto/img/axion_company.jpg') }}" alt="" >
-			</span>
+
 
 			<p>
 				<ul class="list list-icons list-secondary">
@@ -187,14 +172,11 @@
 
 		<div class="box-video">
 
-			<!--
+		
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/W7Las-MJnJo"></iframe>
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/NH2Abkqc5OY"></iframe>
 			</div>
-			-->
-			<span class="img-thumbnail">
-				<img class="img-responsive" src="{{ asset('porto/img/axion_talents.jpg') }}" alt="" >
-			</span>
+
 
 			<p>
 				<ul class="list list-icons list-secondary">

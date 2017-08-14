@@ -151,7 +151,7 @@
 						<a href="#equipoNailis" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
 							<img src="{{ asset('porto/img/team/nailis.jpg')}}" class="img-responsive" alt="">
 							<span class="thumb-info-title">
-								<span class="thumb-info-inner">Nailis Blandin</span>
+								<!--<span class="thumb-info-inner">Nailis Blandin</span>-->
 								<span class="thumb-info-type" style="background-color: #FFA500">CEO</span>
 							</span>
 						</a>
@@ -165,7 +165,7 @@
 						<a href="#equipoClover" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
 							<img src="{{ asset('porto/img/team/clover.jpg')}}" class="img-responsive" alt="">
 							<span class="thumb-info-title">
-								<span class="thumb-info-inner">Clover Brito</span>
+								<!--<span class="thumb-info-inner">Clover Brito</span>-->
 								<span class="thumb-info-type" style="background-color: #FFA500">Presidente</span>
 							</span>
 						</a>
@@ -179,8 +179,8 @@
 						<a href="#equipoAntonella" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
 							<img src="{{ asset('porto/img/team/antonella.jpg')}}" class="img-responsive" alt="">
 							<span class="thumb-info-title">
-								<span class="thumb-info-inner">Antonella Lobosco</span>
-								<span class="thumb-info-type" style="background-color: #FFA500">Servicios Compartidos</span>
+								<!--<span class="thumb-info-inner">Antonella Lobosco</span>-->
+								<span class="thumb-info-type" style="background-color: #FFA500">Director</span>
 							</span>
 						</a>
 					</span>
@@ -193,8 +193,8 @@
 						<a href="#equipoRomina" data-plugin-lightbox data-plugin-options='{"type": "inline", preloader: false}'>
 							<img src="{{ asset('porto/img/team/romina.jpg')}}" class="img-responsive" alt="">
 							<span class="thumb-info-title">
-								<span class="thumb-info-inner">Romina Lanconelli</span>
-								<span class="thumb-info-type" style="background-color: #FFA500">Gestión de Talentos</span>
+								<!--<span class="thumb-info-inner">Romina Lanconelli</span>-->
+								<span class="thumb-info-type" style="background-color: #FFA500">Gerente</span>
 							</span>
 						</a>
 					</span>

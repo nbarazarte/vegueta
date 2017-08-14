@@ -14,7 +14,7 @@
 							<div class="col-md-8">
 								<p>
 									Confíenos la gestión de la <em style="color: #00a69c">tecnología</em> en su empresa
-									<span> y le garantizamos el aumento de su productividad</span>
+									<span> usted el requerimiento, nosotros la solución</span>
 								</p>
 							</div>
 							<div class="col-md-4">

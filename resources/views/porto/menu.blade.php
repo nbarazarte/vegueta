@@ -36,29 +36,29 @@
 												<ul class="nav nav-pills" id="mainNav">
 													
 													<li>
-														<a href="{{ route('home')}}">
+														<a href="{{ route('home')}}" style="color: #da5417">
 															AXION TI
 														</a>
 													</li>
 
 													<li class="dropdown">
-														<a data-hash  class="dropdown-toggle" href="#">
+														<a data-hash  class="dropdown-toggle" href="#" style="color: #da5417">
 															Soluciones
 														</a>
 														<ul class="dropdown-menu">
-															<li><a href="{{ route('servicios')}}">Servicios</a></li>
-															<li><a href="{{ route('proyectos')}}">Proyectos</a></li>
+															<li><a href="{{ route('servicios')}}" style="color: #da5417">Servicios</a></li>
+															<li><a href="{{ route('proyectos')}}" style="color: #da5417">Proyectos</a></li>
 														</ul>
 													</li>
 
 													<li>
-														<a href="{{ route('casosExito')}}">Casos de Éxito</a>
+														<a href="{{ route('casosExito')}}" style="color: #da5417">Casos de Éxito</a>
 													</li>
 													<li>
-														<a href="{{ route('trabaja')}}">Empleo AXIONTI</a>
+														<a href="{{ route('trabaja')}}" style="color: #da5417">Empleo AXIONTI</a>
 													</li>
 													<li>
-														<a href="{{ route('contacto')}}">Contáctanos</a>
+														<a href="{{ route('contacto')}}" style="color: #da5417">Contáctanos</a>
 													</li>
 												</ul>
 											</nav>

@@ -9,7 +9,26 @@
 				<div id="googlemaps" class="google-map"></div>
 
 
+				<div class="home-intro" id="home-intro" style="top: -30px;">
+					<div class="container">
 
+						<div class="row">
+							<div class="col-md-8">
+								<p>
+									Confíenos la gestión de la <em style="color: #00a69c">tecnología</em> de su empresa
+									<span>y le garantizamos el aumento de su productividad</span>
+								</p>
+							</div>
+							<div class="col-md-4">
+								<div class="get-started">
+									<a href="{{ route('contacto')}}" class="btn btn-lg btn-primary">Contáctanos</a>
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>	
 
 	<section id="">
 		<div class="container">
@@ -30,6 +49,8 @@
 							</div>
 
 							
+
+
 							<h2>Envíanos tus<strong style="color: #da5417"> preguntas y comentarios.</strong></h2>
 
                     			@if(Session::has('message'))
@@ -142,9 +163,9 @@
 							<h4>¿Cómo<strong style="color: #da5417"> ubicarnos?</strong></h4>
 
 							<ul class="list list-icons list-icons-style-3 mt-xlg">
-								<li><i class="fa fa-map-marker"></i> <strong>Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental UNIMET. Edif. 1. P1. Ofic. AXIONTI, (B&G). Caracas, Edo. Miranda.</li>
-								<li><i class="fa fa-phone"></i> <strong>Teléfonos:</strong> (212) 204-21-76 / (212) 241-26-90 / (212) 242-61-14</li>
-								<li><i class="fa fa-envelope"></i> <strong>Correo Electrónico:</strong> <a href="mailto:comercial@axionti.com">comercial@axionti.com</a></li>
+								<li><i class="fa fa-map-marker"></i> <strong>Dirección:</strong> Urb. Terrazas del Ávila – Zona Rental de la Universidad Metropolitana. Edif. Andrés German Otero. Mezzanina</li>
+								<li><i class="fa fa-phone"></i> <strong>Teléfonos:</strong> +58 (212) 204-21-79 / 24-31 </li>
+								<li><i class="fa fa-envelope"></i> <strong>Correo Electrónico:</strong> <a href="mailto:reclutamiento@monitorbg.com">reclutamiento@monitorbg.com</a></li>
 							</ul>
 
 							<hr>

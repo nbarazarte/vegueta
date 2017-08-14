@@ -9,7 +9,7 @@
 								<a href="index.html" class="logo">
 									<img alt="logo axionti" class="img-responsive" src="{{ asset('porto/img/logoaxionti_blanco.png')}}">
 								</a>
-								<p style="text-align: center;">El nombre y logo de axionti<br> son marcas registradas.</p>
+								<p style="text-align: center;">J-312538031 El nombre y logo de axionti<br> son marcas registradas.</p>
 						</div>
 
 
@@ -30,12 +30,12 @@
 							
 						</div>
 						<div class="col-md-3">
-							<h5 class="mb-sm"> <a href="{{ route('contacto') }}"> Contáctanos</a></h5>
-							<span class="phone">(212) 204-21-76</span>
+							<h4 class="heading-primary"> <a href="{{ route('contacto') }}"> Contáctanos</a></h4>
+							
 							<ul class="list list-icons list-icons-sm">
-								<li><i class="fa fa-phone-square" aria-hidden="true"></i> (212) 241-26-90</li>
-								<li><i class="fa fa-phone-square" aria-hidden="true"></i> (212) 242-61-14</li>
-								<li><i class="fa fa-envelope"></i> <a href="mailto:comercial@axionti.com">comercial@axionti.com</a></li>
+								<li><i class="fa fa-phone-square" aria-hidden="true"></i> +58 (212) 204-21-79</li>
+								<li><i class="fa fa-phone-square" aria-hidden="true"></i> +58 (212) 204-24-31</li>
+								<li><i class="fa fa-envelope"></i> <a href="mailto:reclutamiento@monitorbg.com">reclutamiento@monitorbg.com</a></li>
 							</ul>
 
 						</div>
@@ -45,9 +45,9 @@
 							<p></p>
 
 								<a href="index.html" class="logo">
-									<img alt="logo bg" class="img-responsive" src="{{ asset('porto/img/byg.png')}}">
+									<img alt="logo bg" class="img-responsive" src="{{ asset('porto/img/byg.png')}}" width="70%">
 								</a>
-								<p style="text-align: center;">Desarrollado por B&G Technologies <br> S.A. J-405498633</p>
+								<p style="text-align: center;">B&G Technologies <br> S.A. J-307049731</p>
 						</div>
 					</div>
 				</div>
